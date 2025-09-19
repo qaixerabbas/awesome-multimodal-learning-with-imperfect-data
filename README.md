@@ -1,4 +1,4 @@
-# awesome-multimodal-learning-with-imperfect-data
+# Multimodal Representation Learning under Imperfect Data Conditions: A Survey
 ![Papers](https://img.shields.io/badge/Papers-397-blue)
 ![Latest](https://img.shields.io/badge/Latest-2025-green)
 ![Awesome](https://awesome.re/badge.svg)
