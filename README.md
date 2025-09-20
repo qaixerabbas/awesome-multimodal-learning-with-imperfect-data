@@ -17,7 +17,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 ## 📋 Table of Contents
 - [Existing Surveys](#existing-survey-paper)
 - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
-- [Multimodal Learning with Corrupted/Noisy Modalities](#multimodal-learning-with-corrupted-modalities)
+- [Multimodal Learning with Corrupted/Noisy Modalities](#multimodal-learning-with-corruptednoisy-modalities)
 - [License](#license)
 
 ## 📖 Existing Survey Paper  
