@@ -1,1130 +1,263 @@
-# Multimodal Representation Learning under Imperfect Data Conditions: A Survey
+
 ![Papers](https://img.shields.io/badge/Papers-397-blue)
 ![Latest](https://img.shields.io/badge/Latest-2025-green)
 ![Awesome](https://awesome.re/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-red.svg)
 
-This repository complements our survey paper Multimodal learning with imperfect data: A Survey.
+# <p align=center> Multimodal Representation Learning under Imperfect Data Conditions: A Survey </p>
+<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
 
-A curated list of research papers with easy navigation and direct links.
-📚 **397 papers** spanning **2010-2025**
-🔍 **Easy navigation** with categorized sections
-🔗 **Direct links** to papers and DOIs
+This repository complements our survey paper Multimodal learning with imperfect data: A Survey. 
 
-## 📋 Table of Contents
-- [📊 Statistics](#-statistics)
-- [2025](#2025)
-- [2024](#2024)
-- [2023](#2023)
-- [2022](#2022)
-- [2021](#2021)
-- [2020](#2020)
-- [2019](#2019)
-- [2018](#2018)
-- [2017](#2017)
-- [2016](#2016)
-- [2015](#2015)
-- [2014](#2014)
-- [2013](#2013)
-- [2012](#2012)
-- [2011](#2011)
-- [2010](#2010)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
-### 📈 Papers by Type
-- **Conference:** 185 (46.6%)
-- **Journal:** 152 (38.3%)
-- **Preprint:** 59 (14.9%)
-- **Other:** 1 (0.3%)
+This repository is a curated list of awesome multimodal learning with imperfect data resources, inspired by the other awesome-initiatives. We intend to regularly update the relevant papers and code on this page.
 
-### 📅 Papers by Year
-- **2025:** 23 papers `████████████████████`
-- **2024:** 25 papers `████████████████████`
-- **2023:** 30 papers `████████████████████`
-- **2022:** 16 papers `████████████████░░░░`
-- **2021:** 22 papers `████████████████████`
-- **2020:** 13 papers `█████████████░░░░░░░`
-- **2019:** 7 papers `███████░░░░░░░░░░░░░`
-- **2018:** 6 papers `██████░░░░░░░░░░░░░░`
-- **2017:** 4 papers `████░░░░░░░░░░░░░░░░`
-- **2016:** 6 papers `██████░░░░░░░░░░░░░░`
-- **2015:** 9 papers `█████████░░░░░░░░░░░`
-- **2014:** 6 papers `██████░░░░░░░░░░░░░░`
-- **2013:** 5 papers `█████░░░░░░░░░░░░░░░`
-- **2012:** 1 papers `█░░░░░░░░░░░░░░░░░░░`
-- **2011:** 2 papers `██░░░░░░░░░░░░░░░░░░`
-- **2010:** 2 papers `██░░░░░░░░░░░░░░░░░░`
+We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
-## 2025
+  ## 📋 Table of Contents
+  - [Existing Surveys](#Existing-survey-paper)
+  - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
+  - [Multimodal Learning with Corrupted/Noisy Modalities](#Multimodal-learning-with-corrupted-modalities)
+  - [License](#-license)
 
-- [Adaptive Cross-Modal Representation Learning for Heterogeneous Data Types in Alzheimer Disease Progression Prediction with Missing Time Point and Modalities](https://doi.org/10.1007/978-3-031-78198-8_18}
-)
-  **
-  **International Conference on Pattern Recognition**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-78198-8_18}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Chameleon: A Multimodal Learning Framework Robust to Missing Modalities](https://doi.org/10.1007/s13735-025-00370-y}
-)
-  **
-  **International Journal of Multimedia Information Retrieval**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s13735-025-00370-y}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Cross-modal prototype based multimodal federated learning under severely missing modality](https://doi.org/10.2139/ssrn.5094030}
-)
-  **
-  **Information Fusion**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.2139/ssrn.5094030}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep Learning-Driven Behavioral Modeling in IoST for Mental Health Monitoring and Intervention](https://doi.org/10.1109/tcss.2025.3550419}
-)
-  **
-  **IEEE Transactions on Computational Social Systems**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tcss.2025.3550419}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Diffusion-driven Incomplete Multimodal Learning for Air Quality Prediction](https://doi.org/10.1145/3702243}
-)
-  **
-  **ACM Transactions on Internet of Things**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1145/3702243}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Disentanglement and codebook learning-induced feature match network to diagnose neurodegenerative diseases on incomplete multimodal data](https://doi.org/10.1016/j.patcog.2025.111597}
-)
-  **
-  **Pattern Recognition**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.patcog.2025.111597}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Emotional Boundaries and Intensity Aware Model for Incomplete Multimodal Sentiment Analysis](https://doi.org/10.1016/j.dsp.2025.105023}
-)
-  **
-  **Digital Signal Processing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.dsp.2025.105023}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Fusion for visual-infrared person ReID in real-world surveillance using corrupted multimodal data](https://doi.org/10.1007/s11263-025-02396-5}
-)
-  **
-  **International Journal of Computer Vision**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s11263-025-02396-5}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Graph attention contrastive learning with missing modality for multimodal recommendation](https://doi.org/10.2139/ssrn.4958317}
-)
-  **
-  **Knowledge-Based Systems**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.2139/ssrn.4958317}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Mi-CGA: Cross-modal Graph Attention Network for robust emotion recognition in the presence of incomplete modalities](https://doi.org/10.1016/j.neucom.2025.129342}
-)
-  **
-  **Neurocomputing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.neucom.2025.129342}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal Cascaded Framework with Multimodal Latent Loss Functions Robust to Missing Modalities](https://doi.org/10.1145/3711860}
-)
-  **
-  2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1145/3711860}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal invariant feature prompt network for brain tumor segmentation with missing modalities](https://doi.org/10.2139/ssrn.4871781}
-)
-  **
-  **Neurocomputing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.2139/ssrn.4871781}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal sentiment analysis based on multi-stage graph fusion networks under random missing modality conditions](https://doi.org/10.1049/ipr2.13310}
-)
-  **
-  **IET Image Processing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1049/ipr2.13310}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Open-Modality Latent Modality Interaction Maximization for Audio-Visual Learning](https://doi.org/10.1109/icassp49660.2025.10890569}
-)
-  **
-  2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp49660.2025.10890569}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [R-Bench: Are your Large Multimodal Model Robust to Real-world Corruptions?](https://doi.org/10.1109/jstsp.2025.3558652}
-)
-  **
-  **IEEE Journal of Selected Topics in Signal Processing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/jstsp.2025.3558652}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Robust Multimodal Learning via Cross-Modal Proxy Tokens](http://arxiv.org/abs/2501.17823}
-}
-)
-  **
-  **arXiv preprint arXiv:2501.17823**, 2025
-  [![arXiv](https://img.shields.io/badge/arXiv-red)](http://arxiv.org/abs/2501.17823}
-}
-) ![Type](https://img.shields.io/badge/Preprint-red)
-- [SDR-GNN: Spectral Domain Reconstruction Graph Neural Network for incomplete multimodal learning in conversational emotion recognition](https://doi.org/10.1016/j.knosys.2024.112825}
-)
-  **
-  **Knowledge-Based Systems**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.knosys.2024.112825}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [SSFD-Net: Shared-Specific Feature Disentanglement Network for Multimodal Biometric Recognition with Missing Modality](https://doi.org/10.1016/j.dsp.2025.105003}
-)
-  **
-  **Digital Signal Processing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.dsp.2025.105003}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Tackling Real-world Complexity: Hierarchical Modeling and Dynamic Prompting for Multimodal Long Document Classification](https://doi.org/10.1109/tcsvt.2025.3537759}
-)
-  **
-  **IEEE Transactions on Circuits and Systems for Video Technology**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tcsvt.2025.3537759}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Text-guided Reconstruction Network for Sentiment Analysis with Uncertain Missing Modalities](https://doi.org/10.1109/taffc.2025.3541743}
-)
-  **
-  **IEEE Transactions on Affective Computing**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/taffc.2025.3541743}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [UML: A Unified Multimodal Learning Framework for Cataract Postoperative Visual Acuity Prediction with Uncertain Missing Modalities](https://doi.org/10.1109/icassp49660.2025.10889124}
-)
-  **
-  2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp49660.2025.10889124}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- V 2-SfMLearner: Learning Monocular Depth and Ego-motion for Multimodal Wireless Capsule Endoscopy
-  **
-  **IEEE Transactions on Automation Science and Engineering**, 2025
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Visual robustness benchmark for visual question answering (vqa)](https://doi.org/10.1109/wacv61041.2025.00645}
-)
-  **
-  **2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)**, 2025
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/wacv61041.2025.00645}
-) ![Type](https://img.shields.io/badge/Conference-orange)
+## 📖 Existing Survey Paper  
+| Year | Title | Paper Link | Code Link|
+|------|-------|-------|------|
+| 2024 | Deep multimodal learning with missing modality: A survey | [📄 Link](http://arxiv.org/pdf/2409.07825v3) | - |
+| 2024 | Multimodal fusion on low-quality data: A comprehensive survey | [📄 Link](https://arxiv.org/pdf/2404.18947.pdf) | - |
+| 2023 | Multimodal learning with transformers: A survey | [📄 Link](http://arxiv.org/pdf/2206.06488v2) | - |
+| 2022 | A survey on deep multimodal learning for computer vision: advances, trends, applications, and datasets | [📄 Link](https://link.springer.com/article/10.1007/s00371-021-02166-7) | - |
+| 2020 | A survey on deep learning for multimodal data fusion | [📄 Link](https://direct.mit.edu/neco/article/32/5/829/95591/A-Survey-on-Deep-Learning-for-Multimodal-Data) | - |
+| 2019 | Deep multimodal representation learning: A survey | [📄 Link](https://ieeexplore.ieee.org/ielx7/6287639/8600701/08715409.pdf) | - |
+| 2018 | Multimodal machine learning: A survey and taxonomy | [📄 Link](http://arxiv.org/pdf/1705.09406v2) | - |
+| 2010 | Multimodal fusion for multimedia analysis: a survey | [📄 Link](https://link.springer.com/article/10.1007/s00530-010-0182-0) | - |
 
-## 2024
+## 📖 Multimodal Learning with Missing Modalities  
+| Year | Title | Paper Link | Code Link|
+|------|-------|-------|------|
+| 2025 | Cross-modal prototype based multimodal federated learning under severely missing modality | [📄 Link](https://arxiv.org/abs/2401.13898) | - |
+| 2025 | Graph attention contrastive learning with missing modality for multimodal recommendation | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0950705125000826) | - |
+| 2025 | Knowledge Bridger: Towards Training-free Missing Multi-modality Completion | [📄 Link](https://arxiv.org/abs/2502.19834) | [💻 Code](https://github.com/Guanzhou-Ke/Knowledge-Bridger) |
+| 2025 | Multimodal Cascaded Framework with Multimodal Latent Loss Functions Robust to Missing Modalities | [📄 Link](https://dl.acm.org/doi/10.1145/3711860) | - |
+| 2025 | SDR-GNN: Spectral Domain Reconstruction Graph Neural Network for incomplete multimodal learning in conversational emotion recognition | [📄 Link](http://arxiv.org/pdf/2411.19822v1) | - |
+| 2025 | Retrieval-Augmented Dynamic Prompt Tuning for Incomplete Multimodal Learning | [📄 Link](https://arxiv.org/pdf/2501.01120.pdf) | - |
+| 2025 | FedMobile: Enabling Knowledge Contribution-aware Multi-modal Federated Learning with Incomplete Modalities | [📄 Link](https://www.arxiv.org/abs/2502.15839) | - |
+| 2025 | Efficient prompting for continual adaptation to missing modalities | [📄 Link](http://arxiv.org/pdf/2503.00528v1) | - |
+| 2025 | UML: A Unified Multimodal Learning Framework for Cataract Postoperative Visual Acuity Prediction with Uncertain Missing Modalities | [📄 Link](https://ieeexplore.ieee.org/document/10889124) | [💻 Code](https://github.com/yty9941/Eyer-BCVA) |
+| 2025 | Robust Multimodal Learning via Cross-Modal Proxy Tokens | [📄 Link](https://arxiv.org/pdf/2501.17823.pdf) | - |
+| 2025 | Incomplete modality disentangled representation for ophthalmic disease grading and diagnosis | [📄 Link](https://arxiv.org/pdf/2502.11724.pdf) | [💻 Code](https://github.com/Chenngzz/IMDR) |
+| 2025 | SSFD-Net: Shared-Specific Feature Disentanglement Network for Multimodal Biometric Recognition with Missing Modality | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1051200425000259) | - |
+| 2025 | Diffusion-driven Incomplete Multimodal Learning for Air Quality Prediction | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3702243) | - |
+| 2025 | ModalityMirror: Enhancing Audio Classification in Modality Heterogeneity Federated Learning via Multimodal Distillation | [📄 Link](https://arxiv.org/pdf/2408.15803.pdf) | - |
+| 2025 | Multimodal invariant feature prompt network for brain tumor segmentation with missing modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231224016187) | [💻 Code](https://github.com/diaoyq121/MIFPN) |
+| 2025 | OGP-Net: Optical Guidance Meets Pixel-Level Contrastive Distillation for Robust Multi-Modal and Missing Modality Segmentation | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/view/32743) | - |
+| 2025 | Modality-Invariant Bidirectional Temporal Representation Distillation Network for Missing Multimodal Sentiment Analysis | [📄 Link](https://arxiv.org/pdf/2501.05474.pdf) | - |
+| 2025 | PAL: Prompting Analytic Learning with Missing Modality for Multi-Modal Class-Incremental Learning | [📄 Link](https://arxiv.org/pdf/2501.09352.pdf) | - |
+| 2025 | Multimodal sentiment analysis based on multi-stage graph fusion networks under random missing modality conditions | [📄 Link](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.13310) | - |
+| 2025 | Semantically Conditioned Prompts for Visual Recognition under Missing Modality Scenarios | [📄 Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10944153) | [💻 Code](https://github.com/vittoriopipoli/SCP_WACV2025) |
+| 2025 | Text-guided Reconstruction Network for Sentiment Analysis with Uncertain Missing Modalities | [📄 Link](https://ieeexplore.ieee.org/document/10884915) | - |
+| 2025 | Open-Modality Latent Modality Interaction Maximization for Audio-Visual Learning | [📄 Link](https://ieeexplore.ieee.org/abstract/document/10890569) | - |
+| 2025 | Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios | [📄 Link](http://arxiv.org/pdf/2504.16352v1) | - |
+| 2025 | OPTIMUS: Predicting Multivariate Outcomes in Alzheimer's Disease Using Multi-modal Data amidst Missing Values | [📄 Link](https://arxiv.org/pdf/2503.11282.pdf) | - |
+| 2025 | Tackling Real-world Complexity: Hierarchical Modeling and Dynamic Prompting for Multimodal Long Document Classification | [📄 Link](https://ieeexplore.ieee.org/document/10869505) | - |
+| 2025 | Mi-CGA: Cross-modal Graph Attention Network for robust emotion recognition in the presence of incomplete modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231225000141) | [💻 Code](https://github.com/dangkh/Mi-CGA) |
+| 2025 | Emotional Boundaries and Intensity Aware Model for Incomplete Multimodal Sentiment Analysis | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1051200425000454) | - |
+| 2025 | Test-Time Adaptation for Combating Missing Modalities in Egocentric Videos | [📄 Link](https://arxiv.org/abs/2404.15161) | - |
+| 2025 | Wasserstein Modality Alignment Makes Your Multimodal Transformer More Robust | [📄 Link](https://scholars.cityu.edu.hk/en/publications/wasserstein-modality-alignment-makes-your-multimodal-transformer-) | - |
+| 2025 | Adaptive Cross-Modal Representation Learning for Heterogeneous Data Types in Alzheimer Disease Progression Prediction with Missing Time Point and Modalities | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-78198-8_18) | - |
+| 2025 | AMM-Diff: Adaptive Multi-Modality Diffusion Network for Missing Modality Imputation | [📄 Link](https://arxiv.org/abs/2501.12840) | - |
+| 2025 | Chameleon: A Multimodal Learning Framework Robust to Missing Modalities | [📄 Link](https://link.springer.com/article/10.1007/s13735-025-00370-y) | - |
+| 2024 | FMCNet $+ $: Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification | [📄 Link](https://ieeexplore.ieee.org/document/9880449) | - |
+| 2024 | Unified multi-modal image synthesis for missing modality imputation | [📄 Link](https://arxiv.org/pdf/2304.05340) | - |
+| 2024 | Towards Robust Multimodal Prompting with Missing Modalities | [📄 Link](http://arxiv.org/pdf/2312.15890v2) | - |
+| 2024 | Missing modality robustness in semi-supervised multi-modal semantic segmentation | [📄 Link](https://arxiv.org/pdf/2304.10756) | [💻 Code](https://github.com/harshm121/M3L) |
+| 2024 | MMMViT: Multiscale multimodal vision transformer for brain tumor segmentation with missing modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1746809423012600) | [💻 Code](https://github.com/qiuchengjian/MMMViT) |
+| 2024 | Robust multimodal learning with missing modalities via parameter-efficient adaptation | [📄 Link](http://arxiv.org/pdf/2310.03986) | - |
+| 2024 | Unibev: Multi-modal 3d object detection with uniform bev encoders for robustness against missing sensor modalities | [📄 Link](https://arxiv.org/pdf/2309.14516.pdf) | - |
+| 2024 | Segment Beyond View: Handling Partially Missing Modality for Audio-Visual Semantic Segmentation | [📄 Link](https://arxiv.org/abs/2312.08673) | - |
+| 2024 | MMAN-M2: Multiple multi-head attentions network based on encoder with missing modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0167865523003458) | - |
+| 2024 | FRAMM: Fair ranking with missing modalities for clinical trial site selection | [📄 Link](http://arxiv.org/pdf/2305.19407v1) | - |
+| 2024 | Modality translation-based multimodal sentiment analysis under uncertain missing modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1566253523002890) | - |
+| 2024 | Deformation-aware and reconstruction-driven multimodal representation learning for brain tumor segmentation with missing modalities | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1746809424000703) | [💻 Code](https://github.com/Linzy0227/SRMNet) |
+| 2024 | Multimodal Knowledge Graph Embedding With Missing Data Integration | [📄 Link](https://ieeexplore.ieee.org/document/10539319) | - |
+| 2024 | Penta-Encoder with Medical Transformer for Incomplete Multimodal Learning of Brain Tumor Segmentation | [📄 Link](https://ieeexplore.ieee.org/document/10846462) | - |
+| 2024 | TIP: Tabular-image pre-training for multimodal classification with incomplete data | [📄 Link](https://arxiv.org/pdf/2407.07582.pdf) | [💻 Code](https://github.com/siyi-wind/TIP) |
+| 2024 | Do We Really Need to Drop Items with Missing Modalities in Multimodal Recommendation? | [📄 Link](http://arxiv.org/pdf/2408.11767v1) | - |
+| 2024 | A multimodal single-branch embedding network for recommendation in cold-start and missing modality scenarios | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3640457.3688138) | - |
+| 2023 | Multimodal prompting with missing modalities for visual recognition | [📄 Link](http://arxiv.org/pdf/2303.03369v2) | [💻 Code](https://github.com/YiLunLee/missing_aware_prompts) |
+| 2023 | Unimf: a unified multimodal framework for multimodal sentiment analysis in missing modalities and unaligned multimodal sequences | [📄 Link](https://ieeexplore.ieee.org/document/10339893) | [💻 Code](https://github.com/gw-zhong/UniMF) |
+| 2023 | Learning unified hyper-network for multi-modal MR image synthesis and tumor segmentation with missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/10209227) | [💻 Code](https://github.com/HeranYang/hyper-GAE) |
+| 2023 | Exploiting modality-invariant feature for robust multimodal emotion recognition with missing modalities | [📄 Link](https://arxiv.org/pdf/2210.15359) | - |
+| 2023 | Rethinking Missing Modality Learning from a Decoding Perspective | [📄 Link](https://dl.acm.org/doi/10.1145/3581783.3612291) | - |
+| 2023 | Exploiting Multi-modal Fusion for Robust Face Representation Learning with Missing Modality | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-44210-0_23) | - |
+| 2023 | Multimodal Language Learning for Object Retrieval in Low Data Regimes in the Face of Missing Modalities | [📄 Link](https://ebiquity.umbc.edu/paper/html/id/1150/Multimodal-Language-Learning-for-Object-Retrieval-in-Low-Data-Regimes-in-the-Face-of-Missing-Modalities) | - |
+| 2023 | Cross-modal alignment and translation for missing modality action recognition | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S1077314223001856) | - |
+| 2023 | What Makes for Robust Multi-Modal Models in the Face of Missing Modalities? | [📄 Link](https://arxiv.org/pdf/2310.06383) | - |
+| 2023 | Rethinking uncertainly missing and ambiguous visual modality in multi-modal entity alignment | [📄 Link](https://arxiv.org/pdf/2307.16210) | [💻 Code](https://github.com/zjukg/UMAEA) |
+| 2023 | Towards good practices for missing modality robust action recognition | [📄 Link](http://arxiv.org/pdf/2211.13916v2) | - |
+| 2023 | M3AE: multimodal representation learning for brain tumor segmentation with missing modalities | [📄 Link](http://arxiv.org/pdf/2303.05302v1) | - |
+| 2023 | Multi-modal learning with missing modality via shared-specific feature modelling | [📄 Link](http://arxiv.org/pdf/2307.14126) | - |
+| 2023 | Prototype knowledge distillation for medical segmentation with missing modality | [📄 Link](http://arxiv.org/pdf/2303.09830v2) | [💻 Code](https://github.com/SakurajimaMaiii/ProtoKD) |
+| 2023 | MSH-Net: Modality-shared hallucination with joint adaptation distillation for remote sensing image classification using missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/10097714) | [💻 Code](https://github.com/shicaiwei123/TGRS-MSHNet) |
+| 2023 | Learnable cross-modal knowledge distillation for multi-modal learning with missing modality | [📄 Link](https://arxiv.org/pdf/2310.01035.pdf) | - |
+| 2023 | Accommodating Missing Modalities in Time-Continuous Multimodal Emotion Recognition | [📄 Link](http://arxiv.org/pdf/2311.10119) | - |
+| 2023 | Attention-based multimodal fusion with contrast for robust clinical prediction in the face of missing modalities | [📄 Link](https://doi.org/10.1016/j.jbi.2023.104466) | - |
+| 2023 | MagNET: Modality-Agnostic Network for Brain Tumor Segmentation and Characterization with Missing Modalities | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-45673-2_36) | - |
+| 2023 | Contrastive Learning-Based Spectral Knowledge Distillation for Multi-Modality and Missing Modality Scenarios in Semantic Segmentation | [📄 Link](https://arxiv.org/pdf/2312.02240.pdf) | - |
+| 2023 | Audio-Visual Sensor Fusion Framework using Person Attributes Robust to Missing Visual Modality for Person Recognition | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-27818-1_43) | - |
+| 2023 | Multimodal federated learning with missing modality via prototype mask and contrast | [📄 Link](http://arxiv.org/pdf/2312.13508v2) | [💻 Code](https://github.com/Noirebao/Multimodal_Federated) |
+| 2023 | Enhancing modality-agnostic representations via meta-learning for brain tumor segmentation | [📄 Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11087061) | - |
+| 2023 | MissModal: Increasing Robustness to Missing Modality in Multimodal Sentiment Analysis | [📄 Link](https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00628/2199592/tacl_a_00628.pdf) | [💻 Code](https://github.com/RH-Lin/MissModal) |
+| 2023 | Multimodal reconstruct and align net for missing modality problem in sentiment analysis | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-27818-1_34) | - |
+| 2023 | Feature fusion and latent feature learning guided brain tumor segmentation and missing modality recovery network | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320323003667) | - |
+| 2023 | Multi-head siamese prototype learning against both data and label corruption | [📄 Link](https://dl.acm.org/doi/10.1145/3595916.3626435) | - |
+| 2022 | Are multimodal transformers robust to missing modality? | [📄 Link](http://arxiv.org/pdf/2204.05454v1) | - |
+| 2022 | M2R2: Missing-Modality Robust emotion Recognition framework with iterative data augmentation | [📄 Link](https://arxiv.org/pdf/2205.02524) | - |
+| 2022 | Region-of-interest attentive heteromodal variational encoder-decoder for segmentation with missing modalities | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-26351-4_9) | [💻 Code](https://github.com/ssjx10/RA-HVED) |
+| 2022 | Mm-align: Learning optimal transport-based alignment dynamics for fast and accurate inference on missing modality sequences | [📄 Link](http://arxiv.org/pdf/2210.12798) | [💻 Code](https://github.com/declare-lab/MM-Align) |
+| 2022 | M3care: Learning with missing modalities in multimodal healthcare data | [📄 Link](https://arxiv.org/pdf/2210.17292) | - |
+| 2022 | Fmcnet: Feature-level modality compensation for visible-infrared person re-identification | [📄 Link](https://ieeexplore.ieee.org/document/9880449) | - |
+| 2022 | A general framework for incomplete cross-modal retrieval with missing labels and missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/9747813) | - |
+| 2022 | Mitigating inconsistencies in multimodal sentiment analysis under uncertain missing modalities | [📄 Link](https://aclanthology.org/2022.emnlp-main.189.pdf) | [💻 Code](https://github.com/JaydenZeng/EMMR) |
+| 2022 | SMU-Net: Style matching U-Net for brain tumor segmentation with missing modalities | [📄 Link](http://arxiv.org/pdf/2204.02961v1) | [💻 Code](https://github.com/rezazad68/smunet) |
+| 2022 | Moddrop++: A dynamic filter network with intra-subject co-training for multiple sclerosis lesion segmentation with missing modalities | [📄 Link](http://arxiv.org/pdf/2203.04959) | - |
+| 2022 | Tag-assisted multimodal sentiment analysis under uncertain missing modalities | [📄 Link](https://arxiv.org/pdf/2204.13707) | [💻 Code](https://github.com/JaydenZeng/TATE) |
+| 2022 | A Multimodal Sensor Fusion Framework Robust to Missing Modalities for Person Recognition | [📄 Link](http://arxiv.org/pdf/2210.10972v2) | - |
+| 2022 | Multi-modal brain tumor segmentation via missing modality synthesis and modality-level attention fusion | [📄 Link](http://arxiv.org/pdf/2203.04586) | - |
+| 2022 | Robust multimodal sentiment analysis via tag encoding of uncertain missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/9894726) | - |
+| 2022 | Multimodal Image Aesthetic Prediction with Missing Modality | [📄 Link](https://www.mdpi.com/2227-7390/10/13/2312/pdf?version=1657078622) | - |
+| 2022 | Modality-adaptive feature interaction for brain tumor segmentation with missing modalities | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-031-16443-9_18) | - |
+| 2022 | Missing modality meets meta sampling (M3S): An efficient universal approach for multimodal sentiment analysis with missing modality | [📄 Link](http://arxiv.org/pdf/2210.03428v1) | - |
+| 2022 | D 2-Net: Dual disentanglement network for brain tumor segmentation with missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/9775681) | [💻 Code](https://github.com/CityU-AIM-Group/D2Net) |
+| 2022 | mmformer: Multimodal medical transformer for incomplete multimodal learning of brain tumor segmentation | [📄 Link](http://arxiv.org/pdf/2206.02425v2) | [💻 Code](https://github.com/YaoZhang93/mmFormer) |
+| 2021 | An efficient approach for audio-visual emotion recognition with missing labels and missing modalities | [📄 Link](https://ieeexplore.ieee.org/document/9428219) | - |
+| 2021 | Semi-supervised multimodal image translation for missing modality imputation | [📄 Link](https://ieeexplore.ieee.org/document/9413461) | - |
+| 2021 | Brain tumor segmentation for missing modalities by supplementing missing features | [📄 Link](https://ieeexplore.ieee.org/document/9442533) | - |
+| 2021 | Feature-enhanced generation and multi-modality fusion based deep neural network for brain tumor segmentation with missing MR modalities | [📄 Link](https://www.sciencedirect.com/science/article/am/pii/S0925231221013904) | - |
+| 2021 | Glioblastoma multiforme prognosis: MRI missing modality generation, segmentation and radiogenomic survival prediction | [📄 Link](http://arxiv.org/pdf/2104.01149v2) | - |
+| 2021 | Missing modality imagination network for emotion recognition with uncertain missing modalities | [📄 Link](https://aclanthology.org/2021.acl-long.203.pdf) | - |
+| 2021 | A non-linear mapping representing human action recognition under missing modality problem in video data | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0263224121010411) | - |
+| 2021 | Robust multi-modality person re-identification | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/16467/16274) | - |
+| 2021 | Maximum likelihood estimation for multimodal learning with missing modality | [📄 Link](http://arxiv.org/pdf/2108.10513v1) | - |
+| 2021 | Dealing with missing modalities in the visual question answer-difference prediction task through knowledge distillation | [📄 Link](https://arxiv.org/pdf/2104.05965) | - |
+| 2021 | Multimodal gait recognition under missing modalities | [📄 Link](https://hal-polytechnique.archives-ouvertes.fr/hal-03353572/file/ICIP_2021_Multimodal_Gait_Recognition_Under_Missing_Modalities.pdf) | [💻 Code](https://github.com/avagait/gaitmiss) |
+| 2021 | Smil: Multimodal learning with severely missing modality | [📄 Link](http://arxiv.org/pdf/2103.05677v1) | - |
+| 2021 | Deep multisensor learning for missing-modality all-weather mapping | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0924271620303476) | - |
+| 2021 | Progressive modality cooperation for multi-modality domain adaptation | [📄 Link](https://arxiv.org/pdf/2506.19316.pdf) | - |
+| 2021 | ACN: adversarial co-training network for brain tumor segmentation with missing modalities | [📄 Link](https://arxiv.org/pdf/2106.14591.pdf) | - |
+| 2021 | UGaitNet: multimodal gait recognition with missing input modalities | [📄 Link](https://ieeexplore.ieee.org/abstract/document/9634027) | [💻 Code](https://github.com/avagait/ugaitnet) |
+| 2020 | Optimal sparse linear prediction for block-missing multi-modality data without imputation | [📄 Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8612700) | - |
+| 2020 | Training strategies to handle missing modalities for audio-visual expression recognition | [📄 Link](https://arxiv.org/pdf/2010.00734) | - |
+| 2020 | Multimodal biometrics recognition from facial video with missing modalities using deep learning | [📄 Link](https://doi.org/10.5121/csit.2017.70107) | - |
+| 2020 | Multimodal learning with incomplete modalities by knowledge distillation | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3394486.3403234) | - |
+| 2020 | Multi-Modality Matters: A Performance Leap on VoxCeleb. | [📄 Link](https://www.isca-archive.org/interspeech_2020/chen20h_interspeech.pdf) | [💻 Code](https://github.com/SRavit1/multimodal_biometric_authentication) |
+| 2020 | Brain tumor segmentation with missing modalities via latent multi-source correlation representation | [📄 Link](https://arxiv.org/abs/2003.08870) | - |
+| 2020 | Estimation of missing values in heterogeneous traffic data: Application of multimodal deep learning model | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/S0950705120300691) | - |
+| 2019 | A unified representation network for segmentation with missing modalities | [📄 Link](http://arxiv.org/pdf/1908.06683v1) | - |
+| 2019 | Audio feature generation for missing modality problem in video action recognition | [📄 Link](https://ieeexplore.ieee.org/document/8682513) | - |
+| 2019 | Brain tumor segmentation on MRI with missing modalities | [📄 Link](http://arxiv.org/pdf/1904.07290v1) | - |
+| 2019 | An adversarial approach to discriminative modality distillation for remote sensing image classification | [📄 Link](https://ieeexplore.ieee.org/document/9022062) | - |
+| 2019 | Cross-modal Learning by Hallucinating Missing Modalities in RGB-D Vision | [📄 Link](https://www.sciencedirect.com/science/article/abs/pii/B9780128173589000184) | [💻 Code](https://github.com/ncgarcia/modality-distillation) |
+| 2018 | Synthesizing and reconstructing missing sensory modalities in behavioral context recognition | [📄 Link](https://www.mdpi.com/1424-8220/18/9/2967) | - |
+| 2018 | Deep adversarial learning for multi-modality missing data completion | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3219819.3219963) | - |
+| 2018 | Generalized bayesian canonical correlation analysis with missing modalities | [📄 Link](https://link.springer.com/chapter/10.1007/978-3-030-11024-6_48) | - |
+| 2018 | Modality distillation with multiple stream networks for action recognition | [📄 Link](http://arxiv.org/pdf/1806.07110v2) | - |
+| 2018 | LRMM: Learning to recommend with missing modalities | [📄 Link](http://arxiv.org/pdf/1808.06791v2) | - |
+| 2018 | Semi-supervised deep generative modelling of incomplete multi-modality emotional data | [📄 Link](https://arxiv.org/pdf/1808.02096) | - |
+| 2018 | Urban land cover classification with missing data modalities using deep convolutional neural networks | [📄 Link](http://arxiv.org/pdf/1709.07383v2) | - |
+| 2017 | Missing modalities imputation via cascaded residual autoencoder | [📄 Link](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.pdf) | - |
+| 2015 | Sparse low-rank fusion based deep features for missing modality face recognition | [📄 Link](https://ieeexplore.ieee.org/document/7163103) | - |
+| 2015 | Missing modality transfer learning via latent low-rank constraint | [📄 Link](https://ieeexplore.ieee.org/document/7172522) | - |
+| 2014 | Latent low-rank transfer subspace learning for missing modality recognition | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/8905/8764) | - |
 
-- A review of deep learning-based information fusion techniques for multimodal medical image classification
-  **
-  **Computers in Biology and Medicine**, 2024
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [AdaFlow: Non-blocking Inference with Heterogeneous Multi-modal Mobile Sensor Data](https://doi.org/10.1109/cscaiot62585.2024.00006}
-)
-  **
-  **2024 IEEE Coupling of Sensing & Computing in AIoT Systems (CSCAIoT)**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/cscaiot62585.2024.00006}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Audio-visual expression-based emotion recognition model for neglected people in real-time: a late-fusion approach](https://doi.org/10.1007/s11042-024-19456-6}
-)
-  **
-  **Multimedia Tools and Applications**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s11042-024-19456-6}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Benchmarking Object Detection Robustness against Real-World Corruptions](https://doi.org/10.1007/s11263-024-02096-6}
-)
-  **
-  **International Journal of Computer Vision**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s11263-024-02096-6}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Centaur: Robust Multimodal Fusion for Human Activity Recognition](https://doi.org/10.1109/jsen.2024.3388893}
-)
-  **
-  **IEEE Sensors Journal**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/jsen.2024.3388893}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep CNN with late fusion for real time multimodal emotion recognition](https://doi.org/10.1016/j.eswa.2023.122579}
-)
-  **
-  **Expert Systems with Applications**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.eswa.2023.122579}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deformation-aware and reconstruction-driven multimodal representation learning for brain tumor segmentation with missing modalities](https://doi.org/10.1016/j.bspc.2024.106012}
-)
-  **
-  **Biomedical Signal Processing and Control**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.bspc.2024.106012}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [FMCNet $+ $: Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification](https://doi.org/10.1109/cvpr52688.2022.00720}
-)
-  **
-  **IEEE Transactions on Neural Networks and Learning Systems**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/cvpr52688.2022.00720}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [FRAMM: Fair ranking with missing modalities for clinical trial site selection](https://doi.org/10.1016/j.patter.2024.100944}
-)
-  **
-  **Patterns**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.patter.2024.100944}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Learning rich multimodal representation for robust land cover classification in fog](https://doi.org/10.1109/jsen.2024.3364150}
-)
-  **
-  **IEEE Sensors Journal**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/jsen.2024.3364150}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [MMAN-M2: Multiple multi-head attentions network based on encoder with missing modalities](https://doi.org/10.1016/j.patrec.2023.11.029}
-)
-  **
-  **Pattern Recognition Letters**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.patrec.2023.11.029}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [MMMViT: Multiscale multimodal vision transformer for brain tumor segmentation with missing modalities](https://doi.org/10.1016/j.bspc.2023.105827}
-)
-  **
-  **Biomedical Signal Processing and Control**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.bspc.2023.105827}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Modality translation-based multimodal sentiment analysis under uncertain missing modalities](https://doi.org/10.1016/j.inffus.2023.101973}
-)
-  **
-  **Information Fusion**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.inffus.2023.101973}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multicorrupt: A multi-modal robustness dataset and benchmark of lidar-camera fusion for 3d object detection](https://doi.org/10.1109/iv55156.2024.10588664}
-)
-  **
-  **2024 IEEE Intelligent Vehicles Symposium (IV)**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/iv55156.2024.10588664}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimodal Knowledge Graph Embedding With Missing Data Integration](https://doi.org/10.1109/tcss.2024.3385672}
-)
-  **
-  **IEEE Transactions on Computational Social Systems**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tcss.2024.3385672}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Penta-Encoder with Medical Transformer for Incomplete Multimodal Learning of Brain Tumor Segmentation](https://doi.org/10.1109/icsp62129.2024.10846462}
-)
-  **
-  **2024 IEEE 17th International Conference on Signal Processing (ICSP)**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icsp62129.2024.10846462}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Robust multimodal learning with missing modalities via parameter-efficient adaptation](https://doi.org/10.1109/tpami.2024.3476487}
-)
-  **
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2024.3476487}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Robust visible-infrared person re-identification based on polymorphic mask and wavelet graph convolutional network](https://doi.org/10.1109/tifs.2024.3354377}
-)
-  **
-  **IEEE Transactions on Information Forensics and Security**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tifs.2024.3354377}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [TIP: Tabular-image pre-training for multimodal classification with incomplete data](https://doi.org/10.1007/978-3-031-72633-0_27}
-)
-  **
-  **European Conference on Computer Vision**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-72633-0_27}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Towards Robust Multimodal Prompting with Missing Modalities](https://doi.org/10.1109/icassp48485.2024.10447257}
-)
-  **
-  2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp48485.2024.10447257}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Unibev: Multi-modal 3d object detection with uniform bev encoders for robustness against missing sensor modalities](https://doi.org/10.1109/iv55156.2024.10588783}
-)
-  **
-  **2024 IEEE Intelligent Vehicles Symposium (IV)**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/iv55156.2024.10588783}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Unified multi-modal image synthesis for missing modality imputation](https://doi.org/10.1109/tmi.2024.3424785}
-)
-  **
-  **IEEE Transactions on Medical Imaging**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmi.2024.3424785}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Untitled
-  **
-  **Expert Systems with Applications**, 2024
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Untitled](https://arxiv.org/abs/2412.18296}
-}
-)
-  **
-  **arXiv preprint arXiv:2412.18296**, 2024
-  [![arXiv](https://img.shields.io/badge/arXiv-red)](https://arxiv.org/abs/2412.18296}
-}
-) ![Type](https://img.shields.io/badge/Preprint-red)
-- [Zeronlg: Aligning and autoencoding domains for zero-shot multimodal and multilingual natural language generation](https://doi.org/10.1109/tpami.2024.3371376}
-)
-  **
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2024
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2024.3371376}
-) ![Type](https://img.shields.io/badge/Journal-blue)
+## 📖 Multimodal Learning with Corrupted Modalities
 
-## 2023
-
-- A review of research on co-training
-  **
-  **Concurrency and computation: practice and experience**, 2023
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Accommodating Missing Modalities in Time-Continuous Multimodal Emotion Recognition](https://doi.org/10.1109/acii59096.2023.10388079}
-)
-  **
-  **2023 11th International Conference on Affective Computing and Intelligent Interaction (ACII)**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/acii59096.2023.10388079}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [AMSA: Adaptive multimodal learning for sentiment analysis](https://doi.org/10.1145/3572915}
-)
-  **
-  2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1145/3572915}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Attention-based multimodal fusion with contrast for robust clinical prediction in the face of missing modalities](https://doi.org/10.1016/j.jbi.2023.104466}
-)
-  **
-  **Journal of Biomedical Informatics**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.jbi.2023.104466}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Audio-Visual Sensor Fusion Framework using Person Attributes Robust to Missing Visual Modality for Person Recognition](https://doi.org/10.1007/978-3-031-27818-1_43}
-)
-  **
-  **International Conference on Multimedia Modeling**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-27818-1_43}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- Calibrating multimodal learning
-  **
-  **International Conference on Machine Learning**, 2023
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- [Cross-modal alignment and translation for missing modality action recognition](https://doi.org/10.2139/ssrn.4292746}
-)
-  **
-  **Computer Vision and Image Understanding**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.2139/ssrn.4292746}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep Multimodal Fusion with Corrupted Spatio-Temporal Data Using Fuzzy Regularization](https://doi.org/10.1109/iecon51785.2023.10312522}
-)
-  **
-  **IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/iecon51785.2023.10312522}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Employing multimodal co-learning to evaluate the robustness of sensor fusion for industry 5.0 tasks](https://doi.org/10.1007/s00500-022-06802-9}
-)
-  **
-  **Soft Computing**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s00500-022-06802-9}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Exploiting modality-invariant feature for robust multimodal emotion recognition with missing modalities](https://doi.org/10.1109/icassp49357.2023.10095836}
-)
-  **
-  2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp49357.2023.10095836}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Exploiting Multi-modal Fusion for Robust Face Representation Learning with Missing Modality](https://doi.org/10.1007/978-3-031-44210-0_23}
-)
-  **
-  **International Conference on Artificial Neural Networks**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-44210-0_23}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Feature fusion and latent feature learning guided brain tumor segmentation and missing modality recovery network](https://doi.org/10.1016/j.patcog.2023.109665}
-)
-  **
-  **Pattern Recognition**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.patcog.2023.109665}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Learnable cross-modal knowledge distillation for multi-modal learning with missing modality](https://doi.org/10.1007/978-3-031-43901-8_21}
-)
-  **
-  **International Conference on Medical Image Computing and Computer-Assisted Intervention**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-43901-8_21}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Learning unified hyper-network for multi-modal MR image synthesis and tumor segmentation with missing modalities](https://doi.org/10.1109/tmi.2023.3301934}
-)
-  **
-  **IEEE Transactions on Medical Imaging**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmi.2023.3301934}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Low-rank multimanifold embedding learning for multimode process monitoring](https://doi.org/10.1109/tii.2023.3308342}
-)
-  **
-  **IEEE Transactions on Industrial Informatics**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tii.2023.3308342}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [MagNET: Modality-Agnostic Network for Brain Tumor Segmentation and Characterization with Missing Modalities](https://doi.org/10.1007/978-3-031-45673-2_36}
-)
-  **
-  **International Workshop on Machine Learning in Medical Imaging**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-45673-2_36}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Masking important information to assess the robustness of a multimodal classifier for emotion recognition](https://doi.org/10.3389/frai.2023.1091443}
-)
-  **
-  **Frontiers in Artificial Intelligence**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.3389/frai.2023.1091443}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [MissModal: Increasing Robustness to Missing Modality in Multimodal Sentiment Analysis](https://doi.org/10.1162/tacl_a_00628}
-)
-  **
-  **Transactions of the Association for Computational Linguistics**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1162/tacl_a_00628}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [MSH-Net: Modality-shared hallucination with joint adaptation distillation for remote sensing image classification using missing modalities](https://doi.org/10.1109/tgrs.2023.3265650}
-)
-  **
-  **IEEE Transactions on Geoscience and Remote Sensing**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tgrs.2023.3265650}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal learning with transformers: A survey](https://doi.org/10.1109/tpami.2023.3275156/mm1}
-)
-  **
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2023.3275156/mm1}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal reconstruct and align net for missing modality problem in sentiment analysis](https://doi.org/10.1007/978-3-031-27818-1_34}
-)
-  **
-  **International Conference on Multimedia Modeling**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-27818-1_34}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimodal Synthetic Dataset Balancing: A Framework for Realistic and Balanced Training Data Generation in Industrial Settings](https://doi.org/10.1109/iecon51785.2023.10311948}
-)
-  **
-  **IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/iecon51785.2023.10311948}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Prototype knowledge distillation for medical segmentation with missing modality](https://doi.org/10.1109/icassp49357.2023.10095014}
-)
-  **
-  2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp49357.2023.10095014}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Rethinking uncertainly missing and ambiguous visual modality in multi-modal entity alignment](https://doi.org/10.1007/978-3-031-47240-4_7}
-)
-  **
-  **International Semantic Web Conference**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-47240-4_7}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [RHViT: A Robust Hierarchical Transformer for 3D Multimodal Brain Tumor Segmentation Using Biased Masked Image Modeling Pre-training](https://doi.org/10.1109/bibm58861.2023.10385746}
-)
-  **
-  **2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/bibm58861.2023.10385746}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- Robustness in multimodal learning under train-test modality mismatch
-  **
-  **International Conference on Machine Learning**, 2023
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- [SGIR: Star Graph-Based Interaction for Efficient and Robust Multimodal Representation](https://doi.org/10.1109/tmm.2023.3321404}
-)
-  **
-  **IEEE Transactions on Multimedia**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmm.2023.3321404}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Toward a robust sensor fusion step for 3D object detection on corrupted data](https://doi.org/10.1109/lra.2023.3313924}
-)
-  **
-  **IEEE Robotics and automation letters**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/lra.2023.3313924}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Unimf: a unified multimodal framework for multimodal sentiment analysis in missing modalities and unaligned multimodal sequences](https://doi.org/10.1109/tmm.2023.3338769}
-)
-  **
-  **IEEE Transactions on Multimedia**, 2023
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmm.2023.3338769}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Untitled
-  **
-  **IEEE Transactions on Medical Imaging**, 2023
-  ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2022
-
-- [A general framework for incomplete cross-modal retrieval with missing labels and missing modalities](https://doi.org/10.1109/icassp43922.2022.9747813}
-)
-  **
-  2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp43922.2022.9747813}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [D 2-Net: Dual disentanglement network for brain tumor segmentation with missing modalities](https://doi.org/10.1109/tmi.2022.3175478}
-)
-  **
-  **IEEE Transactions on Medical Imaging**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmi.2022.3175478}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Efficient multimodal deep-learning-based COVID-19 diagnostic system for noisy and corrupted images](https://doi.org/10.1016/j.jksus.2022.101898}
-)
-  **
-  **Journal of King Saud University-Science**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.jksus.2022.101898}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Lessons from infant learning for unsupervised machine learning](https://doi.org/10.1038/s42256-022-00488-2}
-)
-  **
-  **Nature Machine Intelligence**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1038/s42256-022-00488-2}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [M2R2: Missing-Modality Robust emotion Recognition framework with iterative data augmentation](https://doi.org/10.1109/tai.2022.3201809}
-)
-  **
-  **IEEE Transactions on Artificial Intelligence**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tai.2022.3201809}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- M3ED: Multi-modal multi-scene emotional dataset for affective computing
-  **
-  **IEEE Transactions on Affective Computing**, 2022
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [mmformer: Multimodal medical transformer for incomplete multimodal learning of brain tumor segmentation](https://doi.org/10.1007/978-3-031-16443-9_11}
-)
-  **
-  **International Conference on Medical Image Computing and Computer-Assisted Intervention**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-16443-9_11}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Modality-adaptive feature interaction for brain tumor segmentation with missing modalities](https://doi.org/10.1007/978-3-031-16443-9_18}
-)
-  **
-  **International Conference on Medical Image Computing and Computer-Assisted Intervention**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-16443-9_18}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Moddrop++: A dynamic filter network with intra-subject co-training for multiple sclerosis lesion segmentation with missing modalities](https://doi.org/10.1007/978-3-031-16443-9_43}
-)
-  **
-  **International Conference on Medical Image Computing and Computer-Assisted Intervention**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-031-16443-9_43}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimodal cloud resources utilization forecasting using a Bidirectional Gated Recurrent Unit predictor based on a power efficient Stacked denoising Autoencoders](https://doi.org/10.1016/j.aej.2022.05.017}
-)
-  **
-  **Alexandria Engineering Journal**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.aej.2022.05.017}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal Image Aesthetic Prediction with Missing Modality](https://doi.org/10.3390/math10132312}
-)
-  **
-  **Mathematics**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.3390/math10132312}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Robust multimodal sentiment analysis via tag encoding of uncertain missing modalities](https://doi.org/10.1109/tmm.2022.3207572}
-)
-  **
-  **IEEE Transactions on Multimedia**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmm.2022.3207572}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Self-supervised learning of audio representations from audio-visual data using spatial alignment](https://doi.org/10.1109/jstsp.2022.3180592}
-)
-  **
-  **IEEE Journal of Selected Topics in Signal Processing**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/jstsp.2022.3180592}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Sentiment-aware multimodal pre-training for multimodal sentiment analysis](https://doi.org/10.1016/j.knosys.2022.110021}
-)
-  **
-  **Knowledge-Based Systems**, 2022
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.knosys.2022.110021}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- SMU-Net: Style matching U-Net for brain tumor segmentation with missing modalities
-  **
-  **International Conference on Medical Imaging with Deep Learning**, 2022
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- Untitled
-  **
-  **The Visual Computer**, 2022
-  ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2021
-
-- [A non-linear mapping representing human action recognition under missing modality problem in video data](https://doi.org/10.1016/j.measurement.2021.110123}
-)
-  **
-  **Measurement**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.measurement.2021.110123}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- A review of multimodal image matching: Methods and applications
-  **
-  **Information Fusion**, 2021
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [ACN: adversarial co-training network for brain tumor segmentation with missing modalities](https://doi.org/10.1007/978-3-030-87234-2_39}
-)
-  **
-  2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-030-87234-2_39}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [An efficient approach for audio-visual emotion recognition with missing labels and missing modalities](https://doi.org/10.1109/icme51207.2021.9428219}
-)
-  **
-  **2021 IEEE international conference on multimedia and Expo (ICME)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icme51207.2021.9428219}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [An immune inspired algorithm for fault tolerant enhanced multimodal machine learning](https://doi.org/10.1109/bibm52615.2021.9669293}
-)
-  **
-  **2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/bibm52615.2021.9669293}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Benchmarks for Corruption Invariant Person Re-identification](https://arxiv.org/abs/2111.00880}
-}
-)
-  **
-  **arXiv preprint arXiv:2111.00880**, 2021
-  [![arXiv](https://img.shields.io/badge/arXiv-red)](https://arxiv.org/abs/2111.00880}
-}
-) ![Type](https://img.shields.io/badge/Preprint-red)
-- [Brain tumor segmentation for missing modalities by supplementing missing features](https://doi.org/10.1109/icccbda51879.2021.9442533}
-)
-  **
-  **2021 IEEE 6th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icccbda51879.2021.9442533}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Bridging deep and multiple kernel learning: A review](https://doi.org/10.1016/j.inffus.2020.10.002}
-)
-  **
-  **Information Fusion**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.inffus.2020.10.002}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep learning-based late fusion of multimodal information for emotion classification of music video](https://doi.org/10.1007/s11042-020-08836-3}
-)
-  **
-  **Multimedia Tools and Applications**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s11042-020-08836-3}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep multisensor learning for missing-modality all-weather mapping](https://doi.org/10.1016/j.isprsjprs.2020.12.009}
-)
-  **
-  **ISPRS Journal of Photogrammetry and Remote Sensing**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.isprsjprs.2020.12.009}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Feature-enhanced generation and multi-modality fusion based deep neural network for brain tumor segmentation with missing MR modalities](https://doi.org/10.1016/j.neucom.2021.09.032}
-)
-  **
-  **Neurocomputing**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.neucom.2021.09.032}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Interpretation on deep multimodal fusion for diagnostic classification](https://doi.org/10.1109/ijcnn52387.2021.9534148}
-)
-  **
-  **2021 International Joint Conference on Neural Networks (IJCNN)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/ijcnn52387.2021.9534148}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Latent correlation representation learning for brain tumor segmentation with missing MRI modalities](https://doi.org/10.1109/tip.2021.3070752}
-)
-  **
-  **IEEE Transactions on Image Processing**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tip.2021.3070752}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal attention fusion for target speaker extraction](https://doi.org/10.1109/slt48900.2021.9383539}
-)
-  **
-  **2021 IEEE Spoken Language Technology Workshop (SLT)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/slt48900.2021.9383539}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimodal classification of parkinson’s disease in home environments with resiliency to missing modalities](https://doi.org/10.3390/s21124133}
-)
-  **
-  **Sensors**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.3390/s21124133}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal gait recognition under missing modalities](https://doi.org/10.1109/icip42928.2021.9506162}
-)
-  **
-  **2021 IEEE International Conference on Image Processing (ICIP)**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icip42928.2021.9506162}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Progressive modality cooperation for multi-modality domain adaptation](https://doi.org/10.1109/tip.2021.3052083}
-)
-  **
-  **IEEE Transactions on Image Processing**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tip.2021.3052083}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Robust multimodal representation learning with evolutionary adversarial attention networks](https://doi.org/10.1109/tevc.2021.3066285}
-)
-  **
-  **IEEE Transactions on Evolutionary Computation**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tevc.2021.3066285}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Semi-supervised multimodal image translation for missing modality imputation](https://doi.org/10.1109/icassp39728.2021.9413461}
-)
-  **
-  2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp39728.2021.9413461}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [UGaitNet: multimodal gait recognition with missing input modalities](https://doi.org/10.1109/tifs.2021.3132579}
-)
-  **
-  **IEEE Transactions on Information Forensics and Security**, 2021
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tifs.2021.3132579}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Untitled
-  **
-  **Computerized Medical Imaging and Graphics**, 2021
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- Untitled
-  **
-  **2021 IEEE international conference on robotics and automation (ICRA)**, 2021
-  ![Type](https://img.shields.io/badge/Conference-orange)
-
-## 2020
-
-- [A survey on contrastive self-supervised learning](https://doi.org/10.3390/technologies9010002}
-)
-  **
-  **Technologies**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.3390/technologies9010002}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [A survey on deep learning for multimodal data fusion](https://doi.org/10.1162/neco_a_01273}
-)
-  **
-  **Neural Computation**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1162/neco_a_01273}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Automatic emotion recognition using temporal multimodal deep learning](https://doi.org/10.5204/thesis.eprints.180753}
-)
-  **
-  **IEEE Access**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.5204/thesis.eprints.180753}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Brain tumor segmentation with missing modalities via latent multi-source correlation representation](https://doi.org/10.1007/978-3-030-59719-1_52}
-)
-  **
-  2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-030-59719-1_52}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Combining multimodal information for metal artefact reduction: an unsupervised deep learning framework](https://doi.org/10.1109/isbi45749.2020.9098633}
-)
-  **
-  **2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/isbi45749.2020.9098633}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- Cross-subject multimodal emotion recognition based on hybrid fusion
-  **
-  **IEEE Access**, 2020
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Emotion recognition using multi-modal data and machine learning techniques: A tutorial and review](https://doi.org/10.1016/j.inffus.2020.01.011}
-)
-  **
-  **Information Fusion**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.inffus.2020.01.011}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal biometrics recognition from facial video with missing modalities using deep learning](https://doi.org/10.5121/csit.2017.70107}
-)
-  **
-  **Journal of Information Processing Systems**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.5121/csit.2017.70107}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Optimal sparse linear prediction for block-missing multi-modality data without imputation](https://doi.org/10.1080/01621459.2019.1632079}
-)
-  **
-  **Journal of the American Statistical Association**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1080/01621459.2019.1632079}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Seanet: A multi-modal speech enhancement network](https://doi.org/10.21437/interspeech.2020-1563}
-)
-  **
-  2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.21437/interspeech.2020-1563}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Self-adaptive neural module transformer for visual question answering](https://doi.org/10.1109/tmm.2020.2995278}
-)
-  **
-  **IEEE Transactions on Multimedia**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmm.2020.2995278}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Uno: Uncertainty-aware noisy-or multimodal fusion for unanticipated input degradation](https://doi.org/10.1109/icra40945.2020.9197266}
-)
-  **
-  **2020 IEEE International Conference on Robotics and Automation (ICRA)**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icra40945.2020.9197266}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Unsupervised multi-domain multimodal image-to-image translation with explicit domain-constrained disentanglement](https://doi.org/10.1016/j.neunet.2020.07.023}
-)
-  **
-  **Neural Networks**, 2020
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.neunet.2020.07.023}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2019
-
-- [A deep learning gated architecture for UGV navigation robust to sensor failures](https://doi.org/10.1016/j.robot.2019.03.001}
-)
-  **
-  **Robotics and Autonomous Systems**, 2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.robot.2019.03.001}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Anomaly detection from system tracing data using multimodal deep learning](https://doi.org/10.1109/cloud.2019.00038}
-)
-  **
-  **2019 IEEE 12th International Conference on Cloud Computing (CLOUD)**, 2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/cloud.2019.00038}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Audio feature generation for missing modality problem in video action recognition](https://doi.org/10.1109/icassp.2019.8682513}
-)
-  **
-  2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp.2019.8682513}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Brain tumor segmentation on MRI with missing modalities](https://doi.org/10.2139/ssrn.4922251}
-)
-  **
-  2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.2139/ssrn.4922251}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Cross-modal Learning by Hallucinating Missing Modalities in RGB-D Vision](https://doi.org/10.1016/b978-0-12-817358-9.00018-4}
-)
-  **
-  **Multimodal Scene Understanding**, 2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/b978-0-12-817358-9.00018-4}
-)
-- Deep multimodal representation learning: A survey
-  **
-  **Ieee Access**, 2019
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Impulse noise reduction in audio signal through multi-stage technique](https://doi.org/10.1016/j.jestch.2018.10.008}
-)
-  **
-  2019
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.jestch.2018.10.008}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2018
-
-- Deep audio-visual speech recognition
-  **
-  **IEEE transactions on pattern analysis and machine intelligence**, 2018
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Deep spatio-temporal feature fusion with compact bilinear pooling for multimodal emotion recognition](https://doi.org/10.1016/j.cviu.2018.06.005}
-)
-  **
-  **Computer vision and image understanding**, 2018
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.cviu.2018.06.005}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Highly accurate image reconstruction for multimodal noise suppression using semisupervised learning on big data](https://doi.org/10.1109/tmm.2018.2820910}
-)
-  **
-  **IEEE Transactions on Multimedia**, 2018
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tmm.2018.2820910}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal machine learning: A survey and taxonomy](https://doi.org/10.1109/tpami.2018.2798607}
-)
-  **
-  **IEEE transactions on pattern analysis and machine intelligence**, 2018
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2018.2798607}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Synthesizing and reconstructing missing sensory modalities in behavioral context recognition](https://doi.org/10.3390/s18092967}
-)
-  **
-  **Sensors**, 2018
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.3390/s18092967}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Urban land cover classification with missing data modalities using deep convolutional neural networks](https://doi.org/10.1109/igarss.2017.8128164}
-)
-  **
-  **IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing**, 2018
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/igarss.2017.8128164}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2017
-
-- [Audio noise reduction using Low pass filters](https://doi.org/10.4236/oalib.1103709}
-)
-  **
-  **Open Access Library Journal**, 2017
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.4236/oalib.1103709}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Audio Set: An ontology and human-labeled dataset for audio events](https://ieeexplore.ieee.org/document/7952261}
-}
-)
-  **
-  2017
-  [![Paper](https://img.shields.io/badge/Paper-green)](https://ieeexplore.ieee.org/document/7952261}
-}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386}
-)
-  **
-  **Communications of the ACM**, 2017
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1145/3065386}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Multiple kernel learning for hyperspectral image classification: A review
-  **
-  **IEEE Transactions on Geoscience and Remote Sensing**, 2017
-  ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2016
-
-- A morphological mean filter for impulse noise removal
-  **
-  **Journal of Display Technology**, 2016
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Adieu features? end-to-end speech emotion recognition using a deep convolutional recurrent network](https://doi.org/10.1109/icassp.2016.7472669}
-)
-  **
-  2016
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icassp.2016.7472669}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Concept based hybrid fusion of multimodal event signals](https://doi.org/10.1109/ism.2016.0013}
-)
-  **
-  **2016 IEEE International Symposium on Multimedia (ISM)**, 2016
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/ism.2016.0013}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- Dynamic memory networks for visual and textual question answering
-  **
-  **International conference on machine learning**, 2016
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- [Source language adaptation approaches for resource-poor machine translation](https://doi.org/10.1162/coli_a_00248}
-)
-  **
-  **Computational Linguistics**, 2016
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1162/coli_a_00248}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Untitled
-  **
-  **Scientific data**, 2016
-  ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2015
-
-- [A review and meta-analysis of multimodal affect detection systems](https://doi.org/10.1145/2682899}
-)
-  **
-  **ACM computing surveys (CSUR)**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1145/2682899}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [A survey of recent advances in visual feature detection](https://doi.org/10.1016/j.neucom.2014.08.003}
-)
-  **
-  **Neurocomputing**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.neucom.2014.08.003}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Missing modality transfer learning via latent low-rank constraint](https://doi.org/10.1109/tip.2015.2462023}
-)
-  **
-  **IEEE transactions on Image Processing**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tip.2015.2462023}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Moddrop: adaptive multi-modal gesture recognition](https://doi.org/10.1109/tpami.2015.2461544}
-)
-  **
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2015.2461544}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Phrase-based image captioning
-  **
-  **International conference on machine learning**, 2015
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- [Recipe recognition with large multimodal food dataset](https://doi.org/10.1109/icmew.2015.7169757}
-)
-  **
-  **2015 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icmew.2015.7169757}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- Simple to complex transfer learning for action recognition
-  **
-  **IEEE Transactions on Image Processing**, 2015
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Sparse low-rank fusion based deep features for missing modality face recognition](https://doi.org/10.1109/fg.2015.7163103}
-)
-  **
-  **2015 11th IEEE International Conference and Workshops on Automatic Face and Gesture Recognition (FG)**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/fg.2015.7163103}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [The classification of multi-modal data with hidden conditional random field](https://doi.org/10.1016/j.patrec.2014.08.005}
-)
-  **
-  **Pattern Recognition Letters**, 2015
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1016/j.patrec.2014.08.005}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2014
-
-- [A new adaptive weighted mean filter for removing salt-and-pepper noise](https://doi.org/10.1109/lsp.2014.2333012}
-)
-  **
-  **IEEE signal processing letters**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/lsp.2014.2333012}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions](https://doi.org/10.1162/tacl_a_00166}
-)
-  **
-  **Transactions of the association for computational linguistics**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1162/tacl_a_00166}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Grounded compositional semantics for finding and describing images with sentences](https://doi.org/10.1162/tacl_a_00177}
-)
-  **
-  **Transactions of the Association for Computational Linguistics**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1162/tacl_a_00177}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Microsoft COCO: Common Objects in Context](https://doi.org/10.1007/978-3-319-10602-1_48}
-)
-  **
-  **European conference on computer vision**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-319-10602-1_48}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimedia classification and event detection using double fusion](https://doi.org/10.1007/s11042-013-1391-2}
-)
-  **
-  **Multimedia tools and applications**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s11042-013-1391-2}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multimodal learning for autonomous underwater vehicles from visual and bathymetric data](https://doi.org/10.1109/icra.2014.6907413}
-)
-  **
-  **2014 IEEE International Conference on Robotics and Automation (ICRA)**, 2014
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/icra.2014.6907413}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-
-## 2013
-
-- [Distance weighted cosine similarity measure for text classification](https://doi.org/10.1007/978-3-642-41278-3_74}
-)
-  **
-  2013
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-642-41278-3_74}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multiple kernel learning for visual object recognition: A review](https://doi.org/10.1109/tpami.2013.212}
-)
-  **
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2013
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tpami.2013.212}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- [Multiple kernel learning in the primal for multimodal Alzheimer’s disease classification](https://doi.org/10.1109/jbhi.2013.2285378}
-)
-  **
-  **IEEE journal of biomedical and health informatics**, 2013
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/jbhi.2013.2285378}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-- Representation learning: A review and new perspectives
-  **
-  **IEEE transactions on pattern analysis and machine intelligence**, 2013
-  ![Type](https://img.shields.io/badge/Journal-blue)
-- [Robust multimodal person identification with limited training data](https://doi.org/10.1109/tsmcc.2012.2227959}
-)
-  **
-  **IEEE Transactions on Human-Machine Systems**, 2013
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/tsmcc.2012.2227959}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2012
-
-- [Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups](https://doi.org/10.1109/msp.2012.2205597}
-)
-  **
-  **IEEE Signal processing magazine**, 2012
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/msp.2012.2205597}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2011
-
-- [Modeling latent discriminative dynamic of multi-dimensional affective signals](https://doi.org/10.1007/978-3-642-24571-8_51}
-)
-  **
-  2011
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/978-3-642-24571-8_51}
-) ![Type](https://img.shields.io/badge/Conference-orange)
-- [Removal of high density salt and pepper noise through modified decision based unsymmetric trimmed median filter](https://doi.org/10.1109/lsp.2011.2122333}
-)
-  **
-  **IEEE Signal processing letters**, 2011
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1109/lsp.2011.2122333}
-) ![Type](https://img.shields.io/badge/Journal-blue)
-
-## 2010
-
-- Multimodal biometrics: Analysis of handvein \& palmprint combination used for person verification
-  **
-  **2010 3rd International Conference on Emerging Trends in Engineering and Technology**, 2010
-  ![Type](https://img.shields.io/badge/Conference-orange)
-- [Multimodal fusion for multimedia analysis: a survey](https://doi.org/10.1007/s00530-010-0182-0}
-)
-  **
-  **Multimedia systems**, 2010
-  [![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s00530-010-0182-0}
-) ![Type](https://img.shields.io/badge/Journal-blue)
+| Year | Title | Paper Link | Code Link|
+|------|-------|-------|------|
+| 2025 | V 2-SfMLearner: Learning Monocular Depth and Ego-motion for Multimodal Wireless Capsule Endoscopy | [📄 Link](https://doi.org/10.1109/tase.2025.3530791) | - |
+| 2025 | Corrupted but Not Broken: Rethinking the Impact of Corrupted Data in Visual Instruction Tuning | [📄 Link](https://arxiv.org/pdf/2502.12635.pdf) | - |
+| 2025 | Smoothing the shift: Towards stable test-time adaptation under complex multimodal noises | [📄 Link](https://arxiv.org/pdf/2503.02616.pdf) | - |
+| 2025 | MSC-Bench: Benchmarking and Analyzing Multi-Sensor Corruption for Driving Perception | [📄 Link](https://arxiv.org/pdf/2501.01037.pdf) | - |
+| 2025 | Fusion for visual-infrared person ReID in real-world surveillance using corrupted multimodal data | [📄 Link](http://arxiv.org/pdf/2305.00320) | - |
+| 2025 | Multi-Task Corrupted Prediction for Learning Robust Audio-Visual Speech Representation | [📄 Link](https://arxiv.org/pdf/2504.18539.pdf) | - |
+| 2025 | Deep Learning-Driven Behavioral Modeling in IoST for Mental Health Monitoring and Intervention | [📄 Link](https://ieeexplore.ieee.org/document/10943187) | - |
+| 2025 | ADMN: A Layer-Wise Adaptive Multimodal Network for Dynamic Input Noise and Compute Resources | [📄 Link](https://arxiv.org/pdf/2502.07862.pdf) | - |
+| 2025 | MICINet: Multi-Level Inter-Class Confusing Information Removal for Reliable Multimodal Classification | [📄 Link](https://arxiv.org/pdf/2502.19674.pdf) | - |
+| 2024 | Indoor scene recognition from images under visual corruptions | [📄 Link](http://arxiv.org/pdf/2408.13029v1) | - |
+| 2024 | DAC: 2D-3D Retrieval with Noisy Labels via Divide-and-Conquer Alignment and Correction | [📄 Link](http://arxiv.org/pdf/2407.17779) | - |
+| 2024 | The Effect of Data Corruption on Multimodal Long Form Responses | [📄 Link](https://openreview.net/pdf?id=wP97TI4OEq) | - |
+| 2024 | Two-level test-time adaptation in multimodal learning | [📄 Link](https://openreview.net/pdf?id=n0lDbIKVAT) | - |
+| 2024 | Leveraging multimodal features and item-level user feedback for bundle construction | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3616855.3635854) | [💻 Code](https://github.com/Xiaohao-Liu/CLHE) |
+| 2024 | Learning rich multimodal representation for robust land cover classification in fog | [📄 Link](https://ieeexplore.ieee.org/document/10438384) | - |
+| 2024 | Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination | [📄 Link](http://arxiv.org/pdf/2411.03823v2) | - |
+| 2024 | Robust visible-infrared person re-identification based on polymorphic mask and wavelet graph convolutional network | [📄 Link](https://ieeexplore.ieee.org/document/10400493) | - |
+| 2024 | AdaFlow: Non-blocking Inference with Heterogeneous Multi-modal Mobile Sensor Data | [📄 Link](https://www.computer.org/csdl/proceedings-article/cscaiot/2024/633800a008/1YTs5ZPRwhW) | - |
+| 2024 | Centaur: Robust Multimodal Fusion for Human Activity Recognition | [📄 Link](http://arxiv.org/pdf/2303.04636) | - |
+| 2024 | TVDiag: A Task-oriented and View-invariant Failure Diagnosis Framework with Multimodal Data | [📄 Link](https://arxiv.org/pdf/2407.19711.pdf) | - |
+| 2024 | Zeronlg: Aligning and autoencoding domains for zero-shot multimodal and multilingual natural language generation | [📄 Link](https://arxiv.org/pdf/2303.06458) | [💻 Code](https://github.com/yangbang18/ZeroNLG) |
+| 2024 | Benchmarking large multimodal models against common corruptions | [📄 Link](http://arxiv.org/pdf/2401.11943v1) | - |
+| 2023 | Deep Multimodal Fusion with Corrupted Spatio-Temporal Data Using Fuzzy Regularization | [📄 Link](https://ieeexplore.ieee.org/document/10312522) | - |
+| 2023 | Multimodal Synthetic Dataset Balancing: A Framework for Realistic and Balanced Training Data Generation in Industrial Settings | [📄 Link](https://ieeexplore.ieee.org/document/10311948) | - |
+| 2023 | Cleanclip: Mitigating data poisoning attacks in multimodal contrastive learning | [📄 Link](http://arxiv.org/pdf/2303.03323v3) | [💻 Code](https://github.com/nishadsinghi/CleanCLIP) |
+| 2023 | Redundancy-adaptive multimodal learning for imperfect data | [📄 Link](https://arxiv.org/pdf/2310.14496.pdf) | - |
+| 2023 | Masking important information to assess the robustness of a multimodal classifier for emotion recognition | [📄 Link](https://www.frontiersin.org/articles/10.3389/frai.2023.1091443/pdf) | - |
+| 2023 | SGIR: Star Graph-Based Interaction for Efficient and Robust Multimodal Representation | [📄 Link](https://ieeexplore.ieee.org/document/10269037) | - |
+| 2023 | Fedmultimodal: A benchmark for multimodal federated learning | [📄 Link](http://arxiv.org/pdf/2306.09486v2) | - |
+| 2023 | Low-rank multimanifold embedding learning for multimode process monitoring | [📄 Link](https://ieeexplore.ieee.org/document/10244242) | - |
+| 2023 | Contrastive self-supervised learning leads to higher adversarial susceptibility | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/26733/26505) | - |
+| 2023 | Best of both worlds: Multimodal contrastive learning with tabular and imaging data | [📄 Link](http://arxiv.org/pdf/2303.14080v3) | - |
+| 2023 | Watch or listen: Robust audio-visual speech recognition with visual corruption modeling and reliability scoring | [📄 Link](https://arxiv.org/pdf/2303.08536) | [💻 Code](https://github.com/joannahong/AV-RelScore) |
+| 2023 | Multimodal data augmentation for visual-infrared person ReID with corrupted data | [📄 Link](https://arxiv.org/pdf/2211.11925) | - |
+| 2023 | Formnetv2: Multimodal graph contrastive learning for form document information extraction | [📄 Link](http://arxiv.org/pdf/2305.02549v2) | - |
+| 2023 | Calibrating multimodal learning | [📄 Link](http://arxiv.org/pdf/2306.01265v1) | - |
+| 2023 | Employing multimodal co-learning to evaluate the robustness of sensor fusion for industry 5.0 tasks | [📄 Link](https://link.springer.com/article/10.1007/s00500-022-06802-9) | - |
+| 2023 | CALICO: Self-supervised camera-liDAR contrastive pre-training for BEV perception | [📄 Link](http://arxiv.org/pdf/2306.00349) | - |
+| 2023 | Aspnet: Action segmentation with shared-private representation of multiple data sources | [📄 Link](http://openaccess.thecvf.com/content/CVPR2023/papers/van_Amsterdam_ASPnet_Action_Segmentation_With_Shared-Private_Representation_of_Multiple_Data_Sources_CVPR_2023_paper.pdf) | - |
+| 2023 | Patch: A plug-in framework of non-blocking inference for distributed multimodal system | [📄 Link](https://cse.msu.edu/~caozc/papers/imwut23-wang.pdf) | - |
+| 2023 | Toward a robust sensor fusion step for 3D object detection on corrupted data | [📄 Link](http://arxiv.org/pdf/2306.07344v1) | - |
+| 2023 | Multi-head siamese prototype learning against both data and label corruption | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3595916.3626435) | - |
+| 2023 | Multi-level confidence learning for trustworthy multimodal classification | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/26346/26118) | - |
+| 2023 | Advclip: Downstream-agnostic adversarial examples in multimodal contrastive learning | [📄 Link](https://arxiv.org/pdf/2308.07026) | - |
+| 2023 | RHViT: A Robust Hierarchical Transformer for 3D Multimodal Brain Tumor Segmentation Using Biased Masked Image Modeling Pre-training | [📄 Link](https://ieeexplore.ieee.org/document/10385746) | - |
+| 2022 | Efficient multimodal deep-learning-based COVID-19 diagnostic system for noisy and corrupted images | [📄 Link](https://doi.org/10.1016/j.jksus.2022.101898) | - |
+| 2022 | Multimodal cloud resources utilization forecasting using a Bidirectional Gated Recurrent Unit predictor based on a power efficient Stacked denoising Autoencoders | [📄 Link](https://doi.org/10.1016/j.aej.2022.05.017) | - |
+| 2022 | Generalized product-of-experts for learning multimodal representations in noisy environments | [📄 Link](https://arxiv.org/pdf/2211.03587) | - |
+| 2022 | Progressive fusion for multimodal integration | [📄 Link](http://arxiv.org/pdf/2209.00302v2) | - |
+| 2021 | An immune inspired algorithm for fault tolerant enhanced multimodal machine learning | [📄 Link](https://ieeexplore.ieee.org/document/9669293) | - |
+| 2021 | Robust multimodal representation learning with evolutionary adversarial attention networks | [📄 Link](https://e-space.mmu.ac.uk/627675/1/IEEE%20TEVC-Feiran.pdf) | - |
+| 2021 | Detect, reject, correct: Crossmodal compensation of corrupted sensors | [📄 Link](http://arxiv.org/pdf/2012.00201v1) | - |
+| 2021 | Multibench: Multiscale benchmarks for multimodal representation learning | [📄 Link](http://arxiv.org/pdf/2107.07502v2) | - |
+| 2021 | Trustworthy multimodal regression with mixture of normal-inverse gamma distributions | [📄 Link](https://arxiv.org/pdf/2111.08456.pdf) | [💻 Code](https://github.com/MaHuanAAA/MoNIG) |
+| 2021 | M3p: Learning universal representations via multitask multilingual multimodal pre-training | [📄 Link](https://arxiv.org/pdf/2006.02635) | - |
+| 2021 | Multimodal attention fusion for target speaker extraction | [📄 Link](http://arxiv.org/pdf/2102.01326v1) | - |
+| 2021 | Defending multimodal fusion models against single-source adversaries | [📄 Link](http://arxiv.org/pdf/2206.12714) | - |
+| 2021 | Vmloc: Variational fusion for learning-based multimodal camera localization | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/16767/16574) | [💻 Code](https://github.com/kaichen-z/VMLoc) |
+| 2020 | Hgmf: heterogeneous graph-based fusion for multimodal data with incompleteness | [📄 Link](http://www.shichuan.org/hin/topic/Information%20Fusion/KDD2020.HGMF_Heterogeneous%20Graph-based%20Fusion%20for%20Multimodal%20Data%20with%20Incompleteness.pdf) | - |
+| 2020 | M3er: Multiplicative multimodal emotion recognition using facial, textual, and speech cues | [📄 Link](http://arxiv.org/pdf/1911.05659v2) | - |
+| 2020 | Seanet: A multi-modal speech enhancement network | [📄 Link](https://arxiv.org/pdf/2009.02095) | - |
+| 2020 | Adaptive multimodal fusion for facial action units recognition | [📄 Link](https://dl.acm.org/doi/pdf/10.1145/3394171.3413538) | - |
+| 2019 | Impulse noise reduction in audio signal through multi-stage technique | [📄 Link](https://doi.org/10.1016/j.jestch.2018.10.008) | - |
+| 2019 | Learning representations from imperfect time series data via tensor rank regularization | [📄 Link](http://arxiv.org/pdf/1907.01011v1) | - |
+| 2019 | Anomaly detection from system tracing data using multimodal deep learning | [📄 Link](https://netman.aiops.org/~peidan/ANM2019/7.TraceAnomalyDetection/LectureCoverage/2019IEEECloud_Anomaly%20Detection%20from%20Tracing%20Data%20using%20Multimodal%20Deep%20Learning.pdf) | - |
+| 2019 | A deep learning gated architecture for UGV navigation robust to sensor failures | [📄 Link](https://www.sciencedirect.com/science/article/am/pii/S0921889018305645) | - |
+| 2019 | Found in translation: Learning robust joint representations by cyclic translations between modalities | [📄 Link](http://arxiv.org/pdf/1812.07809v2) | - |
+| 2019 | Multimodal representation learning using deep multiset canonical correlation | [📄 Link](http://arxiv.org/pdf/1904.01775v1) | - |
+| 2019 | Videobert: A joint model for video and language representation learning | [📄 Link](http://arxiv.org/pdf/1904.01766v2) | - |
+| 2019 | VideoBERT: A joint model for video and language representation learning | [📄 Link](http://arxiv.org/pdf/1904.01766v2) | - |
+| 2018 | Deep audio-visual speech recognition | [📄 Link](https://arxiv.org/pdf/1809.02108) | [💻 Code](https://github.com/smeetrs/deep_avsr) |
+| 2018 | Highly accurate image reconstruction for multimodal noise suppression using semisupervised learning on big data | [📄 Link](https://ieeexplore.ieee.org/document/8327853) | [💻 Code](https://github.com/bigmms/semisupervised-learning-denoising) |
+| 2017 | Audio noise reduction using Low pass filters | [📄 Link](https://doi.org/10.4236/oalib.1103709) | - |
+| 2016 | A morphological mean filter for impulse noise removal | [📄 Link](https://ieeexplore.ieee.org/document/7293089) | - |
+| 2014 | Multimodal learning for autonomous underwater vehicles from visual and bathymetric data | [📄 Link](https://www.researchgate.net/publication/286680050_Multimodal_learning_for_autonomous_underwater_vehicles_from_visual_and_bathymetric_data) | - |
+| 2014 | A new adaptive weighted mean filter for removing salt-and-pepper noise | [📄 Link](http://azadproject.ir/wp-content/uploads/2014/12/2014-A-New-Adaptive-Weighted-Mean-Filter-for-Removing-Salt-and-Pepper-Noise.pdf) | [💻 Code](https://github.com/phogomes/noise_removal) |
+| 2013 | Robust multimodal person identification with limited training data | [📄 Link](https://pureadmin.qub.ac.uk/ws/files/4126175/manuscript.pdf) | - |
+| 2011 | Removal of high density salt and pepper noise through modified decision based unsymmetric trimmed median filter | [📄 Link](https://ieeexplore.ieee.org/document/5723697) | - |
+| 2010 | Multimodal biometrics: Analysis of handvein & palmprint combination used for person verification | [📄 Link](https://ieeexplore.ieee.org/document/5698382) | - |
+| 2009 | Noise adaptive fuzzy switching median filter for salt-and-pepper noise reduction | [📄 Link](http://www.pgembeddedsystems.com/securelogin/upload/project/IEEE/2/PGM_40/PGM_40.pdf) | - |
+| 2008 | Impulse noise removal in speech using wavelets | [📄 Link](http://arxiv.org/pdf/1310.7447v1) | - |
+| 2002 | New kernels for analyzing multimodal data in multimedia using kernel machines | [📄 Link](https://ieeexplore.ieee.org/document/1035368) | - |
+| 2001 | Adaptive impulse detection using center-weighted median filters | [📄 Link](https://www.researchgate.net/profile/Hong-Ren-Wu/publication/3342616_Wu_HR_Adaptive_Impulse_Detection_Using_Center-Weighted_Median_Filters_IEEE_Signal_Processing_Letters_8_1-3/links/53dae09f0cf2a19eee8b3fda/Wu-HR-Adaptive-Impulse-Detection-Using-Center-Weighted-Median-Filters-IEEE-Signal-Processing-Letters-8-1-3.pdf) | - |
+| 1999 | Progressive switching median filter for the removal of impulse noise from highly corrupted images | [📄 Link](http://ira.lib.polyu.edu.hk/bitstream/10397/221/1/CS_ADSP_V46_1_99.pdf) | - |
 
 ## 📄 License
 
@@ -1139,7 +272,7 @@ If you find the listing and survey useful for your work, please cite the paper:
 ```
 @misc{liaqat2025multimodal,
       title={Multimodal learning with imperfect data: A Survey}, 
-      author={Muhammad Irzam Liaqat, Qaiser Abbas, Shah Nawaz}
+      author={Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl}
       year={2025},
       eprint={},
       archivePrefix={arXiv},
