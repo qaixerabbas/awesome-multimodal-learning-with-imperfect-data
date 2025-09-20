@@ -15,10 +15,10 @@ This repository is a curated list of awesome multimodal learning with imperfect 
 We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
   ## 📋 Table of Contents
-  - [Existing Surveys](#Existing-survey-paper)
+  - [Existing Surveys](#existing-survey-paper)
   - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
-  - [Multimodal Learning with Corrupted/Noisy Modalities](#Multimodal-learning-with-corrupted-modalities)
-  - [License](#-license)
+  - [Multimodal Learning with Corrupted/Noisy Modalities](#multimodal-learning-with-corrupted-modalities)
+  - [License](#license)
 
 ## 📖 Existing Survey Paper  
 | Year | Title | Paper Link | Code Link|
