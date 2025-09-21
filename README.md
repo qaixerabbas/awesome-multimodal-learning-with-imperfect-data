@@ -7,10 +7,18 @@
 # <p align=center> Multimodal Representation Learning under Imperfect Data Conditions: A Survey </p>
 <p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
 
+<p align="center">
+  <img src="figs/overview_mml.jpg" alt="PDF Preview" width="600"/>
+</p>
+
+
 This repository complements our survey paper Multimodal learning with imperfect data: A Survey. 
 
-
 This repository is a curated list of awesome multimodal learning with imperfect data resources, inspired by the other awesome-initiatives. We intend to regularly update the relevant papers and code on this page.
+
+<p align="center">
+  <img src="figs/imperfect_intro.jpg" alt="PDF Preview" width="600"/>
+</p>
 
 We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
