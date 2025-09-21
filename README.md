@@ -8,7 +8,7 @@
 <p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
 
 <p align="center">
-  <img src="figs/overview_mml_1.jpg" alt="PDF Preview" width="600"/></br>
+  <img src="figs/overview_mml.jpg" alt="PDF Preview" width="600"/></br>
   <em>Fig 1:  Abstract Overview of different type of learning.(a). Unimodal Learning (b). Multimodal Learning (c). Multimodal Learning under Missing Modalities (d). Multimodal Learning under Corrupted Modalities</em>
 </p>
 
