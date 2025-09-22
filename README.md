@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-MIT-red.svg)
 
 # <p align=center> Multimodal Representation Learning under Imperfect Data Conditions: A Survey </p>
-<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
+<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Marta Moscati, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
 
 <p align="center">
   <img src="figs/overview_mml.jpg" alt="PDF Preview" width="600"/></br>
