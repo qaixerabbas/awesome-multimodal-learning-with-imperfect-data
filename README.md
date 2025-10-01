@@ -22,13 +22,13 @@ This repository is a curated list of awesome multimodal learning with imperfect 
 
 We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
-## 📋 Table of Contents
+# 📋 Table of Contents
 - [Existing Surveys](#existing-survey-paper)
 - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
 - [Multimodal Learning with Corrupted/Noisy Modalities](#multimodal-learning-with-corruptednoisy-modalities)
 - [License](#license)
 
-## 📖 Existing Survey Paper  
+# 📖 Existing Survey Paper  
 | Year | Title | Paper Link | Code Link|
 |------|-------|-------|------|
 | 2024 | Deep multimodal learning with missing modality: A survey | [📄 Link](http://arxiv.org/pdf/2409.07825v3) | - |
@@ -40,7 +40,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Multimodal machine learning: A survey and taxonomy | [📄 Link](http://arxiv.org/pdf/1705.09406v2) | - |
 | 2010 | Multimodal fusion for multimedia analysis: a survey | [📄 Link](https://link.springer.com/article/10.1007/s00530-010-0182-0) | - |
 
-## 📖 Multimodal Learning with Missing Modalities  
+# 📖 Multimodal Learning with Missing Modalities  
 | Year | Title | Paper Link | Code Link|
 |------|-------|-------|------|
 | 2025 | Cross-modal prototype based multimodal federated learning under severely missing modality | [📄 Link](https://arxiv.org/abs/2401.13898) | - |
@@ -178,7 +178,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2015 | Missing modality transfer learning via latent low-rank constraint | [📄 Link](https://ieeexplore.ieee.org/document/7172522) | - |
 | 2014 | Latent low-rank transfer subspace learning for missing modality recognition | [📄 Link](https://ojs.aaai.org/index.php/AAAI/article/download/8905/8764) | - |
 
-## 📖 Multimodal Learning with Corrupted Modalities
+# 📖 Multimodal Learning with Corrupted Modalities
 
 | Year | Title | Paper Link | Code Link|
 |------|-------|-------|------|
