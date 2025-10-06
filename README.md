@@ -234,7 +234,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 
 
 <p align="center">
-  <img src="figs/corrupt_card.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
+  <img src="figs/corrupted_card.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
   <em>Fig 4:  Corrupted modalities Card</em>
 </p>
 
