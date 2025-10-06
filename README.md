@@ -3,32 +3,58 @@
 ![License](https://img.shields.io/badge/License-MIT-red.svg)
 
 # <p align=center> Multimodal Representation Learning under Imperfect Data Conditions: A Survey </p>
-<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Marta Moscati, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
+<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Marta Moscati, Zaigham Zaheer, Yufang Hou, Salman Khan, Elisabeth Andre, Markus Schedl </p> 
 
 <p align="center">
   <img src="figs/overview_mml.png" alt="PDF Preview" width="600"/></br>
   <em>Fig 1:  Abstract Overview of different type of learning.(a). Unimodal Learning (b). Multimodal Learning (c). Multimodal Learning under Missing Modalities (d). Multimodal Learning under Corrupted Modalities</em>
 </p>
 
-
-This repository complements our survey paper Multimodal learning with imperfect data: A Survey. 
-
-This repository is a curated list of awesome multimodal learning with imperfect data resources, inspired by the other awesome-initiatives. We intend to regularly update the relevant papers and code on this page.
-
 <p align="center">
   <img src="figs/imperfect_intro.jpg" alt="PDF Preview" width="600"/></br>
-  <em>Fig 2: Multimodal Learning with missing and corrupted modalities Under different application areas. The figure shows how missing/corrupted modalities effect the multimodal learning in real world scenarios</em>
+  <em>Fig 2: Use-cases of data corruptions in real world. (a) Multimodal Learning (b) Multimodal Learning with missing modalities (c) Multimodal Learning with Corrupted Modalities</em>
 </p>
 
 We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
-## 📋 Table of Contents
-- [Existing Surveys](#existing-survey-paper)
-- [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
-- [Multimodal Learning with Corrupted/Noisy Modalities](#multimodal-learning-with-corruptednoisy-modalities)
-- [License](#license)
+## Table of Contents
+<!-- - [Existing Surveys](#existing-survey-paper) -->
 
-## 📖 Existing Survey Paper  
+
+<!-- - [Multimodal Representation Learning under Imperfect Data Conditions: A Survey](#-p-aligncenter-multimodal-representation-learning-under-imperfect-data-conditions-a-survey--p) -->
+  - [Existing Survey Paper](#existing-survey-paper)
+  - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
+    - [1.1 Reconstruction](#11-reconstruction)
+      - [1.1.1 Generative](#111-generative-back-to-top)
+      - [1.1.2 Alignment](#112-alignment-back-to-top)
+    - [1.2 Architectural](#12-architectural)
+      - [1.2.1 Model Design](#121-model-design-back-to-top)
+      - [1.2.2 Selective Fusion](#122-selective-fusion-back-to-top)
+      - [1.2.3 Co-Learning](#123-co-learning-back-to-top)
+      - [1.2.4 Distillation](#124-distillation-back-to-top)
+      - [1.2.5 Attention Mechanism](#125-attention-mechanism-back-to-top)
+      - [1.2.6 Prompt Learning](#126-prompt-learning-back-to-top)
+    - [1.3 Hybrid Appraoches](#13-hybrid-appraoches-back-to-top)
+  - [Multimodal Learning with Corrupted Modalities](#multimodal-learning-with-corrupted-modalities-back-to-top)
+    - [2.1 Data Processing Methods](#21-data-processing-methods-back-to-top)
+      - [2.1.1 Denoising Methods](#211-denoising-methods-back-to-top)
+      - [2.1.2 Signal Restoration Methods](#212-signal-restoration-methods-back-to-top)
+    - [2.2 Architectural Methods](#22-architectural-methods)
+      - [2.2.1 Noise Aware Networks](#221-noise-aware-networks-back-to-top)
+      - [2.2.2 Confidence Estimation](#222-confidence-estimation-back-to-top)
+      - [2.2.3 Robust Fusion](#223-robust-fusion-back-to-top)
+    - [2.3 Training Strategies](#23-training-strategies)
+      - [2.3.1 Data Augmentation](#231-data-augmentation-back-to-top)
+      - [2.3.2 Adversarial Training](#232-adversarial-training-back-to-top)
+    - [2.4 Post Hoc Methods](#24-post-hoc-methods)
+      - [2.4.1 Error Detection](#241-error-detection-back-to-top)
+      - [2.4.2 Recovery Mechanism](#242-recovery-mechanism-back-to-top)
+  - [License](#license)
+  - [Citation](#citation)
+
+
+## Existing Survey Paper [Back to Top](#table-of-contents)
+
 | Year | Title | Paper Link | Code Link|
 |------|-------|-------|------|
 | 2024 | Deep multimodal learning with missing modality: A survey | [📄 Link](http://arxiv.org/pdf/2409.07825v3) | - |
@@ -40,7 +66,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Multimodal machine learning: A survey and taxonomy | [📄 Link](http://arxiv.org/pdf/1705.09406v2) | - |
 | 2010 | Multimodal fusion for multimedia analysis: a survey | [📄 Link](https://link.springer.com/article/10.1007/s00530-010-0182-0) | - |
 
-## 📖 Multimodal Learning with Missing Modalities  
+## Multimodal Learning with Missing Modalities [Back to Top](#table-of-contents)
 
 <p align="center">
   <img src="figs/missing_tax.png" alt="Taxonomy for missing modalities" width="600"/></br>
@@ -49,12 +75,12 @@ We strongly encourage the contributors/researchers to contribute to the research
 
 <p align="center">
   <img src="figs/missing_card.png" alt="Taxonomy for missing modalities" width="600"/></br>
-  <em>Fig 3: Missing modality stats </em>
+  <em>Fig 4: Overview of the existing studies on multimodal learning under missing modalities, showing (a) yearly publication trends, (b) application areas, (c) modality distribution, and (d) publication venues</em>
 </p>
 
-### 1.1 Reconstruction
+### 1.1 Reconstruction 
 <!-- Generative Appraoches -->
-#### 1.1.1 Generative
+#### 1.1.1 Generative [Back To Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Knowledge Bridger: Towards Training-Free Missing Multi-Modality Completion | [📄](https://arxiv.org/abs/2502.19834) | [💻](https://github.com/Guanzhou-Ke/Knowledge-Bridger) |
@@ -82,7 +108,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Deep Adversarial Learning For Multi-Modality Missing Data Completion | [📄](https://dl.acm.org/doi/pdf/10.1145/3219819.3219963) | - |
 | 2017 | Missing Modalities Imputation Via Cascaded Residual Autoencoder | [📄](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.pdf) | - |
 
-### 1.1.2 Alignment
+### 1.1.2 Alignment [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Robust Multimodal Learning Via Cross-Modal Proxy Tokens | [📄](https://arxiv.org/pdf/2501.17823.pdf) | - |
@@ -100,7 +126,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Generalized Bayesian Canonical Correlation Analysis With Missing Modalities | [📄](https://link.springer.com/chapter/10.1007/978-3-030-11024-6_48) | - |
 
 ### 1.2 Architectural
-### 1.2.1 Model Design
+### 1.2.1 Model Design [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Uml: A Unified Multimodal Learning Framework For Cataract Postoperative Visual Acuity Prediction With Uncertain Missing Modalities | [📄](https://ieeexplore.ieee.org/document/10889124) | [💻](https://github.com/yty9941/Eyer-BCVA) |
@@ -121,7 +147,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2019 | Audio Feature Generation For Missing Modality Problem In Video Action Recognition | [📄](https://ieeexplore.ieee.org/document/8682513) | - |
 | 2019 | Brain Tumor Segmentation On Mri With Missing Modalities | [📄](http://arxiv.org/pdf/1904.07290v1) | - |
 
-### 1.2.2 Selective Fusion
+### 1.2.2 Selective Fusion [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2023 | What Makes For Robust Multi-Modal Models In The Face Of Missing Modalities? | [📄](https://arxiv.org/pdf/2310.06383) | - |
@@ -131,7 +157,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2015 | Sparse Low-Rank Fusion Based Deep Features For Missing Modality Face Recognition | [📄](https://ieeexplore.ieee.org/document/7163103) | - |
 
 
-### 1.2.3 Co-Learning
+### 1.2.3 Co-Learning [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2023 | Multimodal Federated Learning With Missing Modality Via Prototype Mask And Contrast | [📄](http://arxiv.org/pdf/2312.13508v2) | [💻](https://github.com/Noirebao/Multimodal_Federated) |
@@ -149,7 +175,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2015 | Missing Modality Transfer Learning Via Latent Low-Rank Constraint | [📄](https://ieeexplore.ieee.org/document/7172522) | - |
 | 2014 | Latent Low-Rank Transfer Subspace Learning For Missing Modality Recognition | [📄](https://ojs.aaai.org/index.php/AAAI/article/download/8905/8764) | - |
 
-### 1.2.4 Distillation
+### 1.2.4 Distillation [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Modalitymirror: Enhancing Audio Classification In Modality Heterogeneity Federated Learning Via Multimodal Distillation | [📄](https://arxiv.org/pdf/2408.15803.pdf) | - |
@@ -166,7 +192,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2019 | Cross-Modal Learning By Hallucinating Missing Modalities In Rgb-D Vision | [📄](https://www.sciencedirect.com/science/article/abs/pii/B9780128173589000184) | [💻](https://github.com/ncgarcia/modality-distillation) |
 | 2018 | Modality Distillation With Multiple Stream Networks For Action Recognition | [📄](http://arxiv.org/pdf/1806.07110v2) | - |
 
-### 1.2.5 Attention Mechanism
+### 1.2.5 Attention Mechanism [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2024 | Mman-M2: Multiple Multi-Head Attentions Network Based On Encoder With Missing Modalities | [📄](https://www.sciencedirect.com/science/article/abs/pii/S0167865523003458) | - |
@@ -186,7 +212,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2020 | Multi-Modality Matters: A Performance Leap On Voxceleb. | [📄](https://www.isca-archive.org/interspeech_2020/chen20h_interspeech.pdf) | [💻](https://github.com/SRavit1/multimodal_biometric_authentication) |
 | 2020 | Brain Tumor Segmentation With Missing Modalities Via Latent Multi-Source Correlation Representation | [📄](https://arxiv.org/abs/2003.08870) | - |
 
-### 1.2.6 Prompt Learning
+### 1.2.6 Prompt Learning [Back to Top](#table-of-contents)
 
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
@@ -198,7 +224,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2024 | Towards Robust Multimodal Prompting With Missing Modalities | [📄](http://arxiv.org/pdf/2312.15890v2) | - |
 | 2023 | Multimodal Prompting With Missing Modalities For Visual Recognition | [📄](http://arxiv.org/pdf/2303.03369v2) | [💻](https://github.com/YiLunLee/missing_aware_prompts) |
 
-### 1.3 Hybrid Appraoches
+### 1.3 Hybrid Appraoches [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Cross-Modal Prototype Based Multimodal Federated Learning Under Severely Missing Modality | [📄](https://arxiv.org/abs/2401.13898) | - |
@@ -225,22 +251,22 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Semi-Supervised Deep Generative Modelling Of Incomplete Multi-Modality Emotional Data | [📄](https://arxiv.org/pdf/1808.02096) | - |
 | 2018 | Urban Land Cover Classification With Missing Data Modalities Using Deep Convolutional Neural Networks | [📄](http://arxiv.org/pdf/1709.07383v2) | - |
 
-## 📖 Multimodal Learning with Corrupted Modalities
+## Multimodal Learning with Corrupted Modalities
 
 <p align="center">
   <img src="figs/corrupt_tax.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
-  <em>Fig 4:  Overview of our corrupted modality taxonomy with SOTA methods Modalities</em>
+  <em>Fig 5:  Overview of our corrupted modality taxonomy with SOTA methods Modalities</em>
 </p>
 
 
 <p align="center">
   <img src="figs/corrupted_card.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
-  <em>Fig 4:  Corrupted modalities Card</em>
+  <em>Fig 6:  Overview of the existing studies on multimodal learning under corrupted modalities, showing (a) yearly publication trends, (b) application areas, (c) modality distribution, and (d) publication venues</em>
 </p>
 
 
 ### 2.1 Data Processing Methods
-### 2.1.1 Denoising Methods
+### 2.1.1 Denoising Methods [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2024 | Centaur: Robust Multimodal Fusion For Human Activity Recognition | [📄](http://arxiv.org/pdf/2303.04636) | - |
@@ -249,7 +275,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Highly Accurate Image Reconstruction For Multimodal Noise Suppression Using Semisupervised Learning On Big Data | [📄](https://ieeexplore.ieee.org/document/8327853) | [💻](https://github.com/bigmms/semisupervised-learning-denoising) |
 | 2014 | Multimodal Learning For Autonomous Underwater Vehicles From Visual And Bathymetric Data | [📄](https://www.researchgate.net/publication/286680050_Multimodal_learning_for_autonomous_underwater_vehicles_from_visual_and_bathymetric_data) | - |
 
-### 2.1.2 Signal Restoration Methods
+### 2.1.2 Signal Restoration Methods [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2019 | Impulse Noise Reduction In Audio Signal Through Multi-Stage Technique | [📄](https://doi.org/10.1016/j.jestch.2018.10.008) | - |
@@ -263,7 +289,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 1999 | Progressive Switching Median Filter For The Removal Of Impulse Noise From Highly Corrupted Images | [📄](http://ira.lib.polyu.edu.hk/bitstream/10397/221/1/CS_ADSP_V46_1_99.pdf) | - |
 
 ### 2.2 Architectural Methods
-### 2.2.1 Noise Aware Networks
+### 2.2.1 Noise Aware Networks [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | V 2-Sfmlearner: Learning Monocular Depth And Ego-Motion For Multimodal Wireless Capsule Endoscopy | [📄](https://doi.org/10.1109/tase.2025.3530791) | - |
@@ -282,7 +308,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2019 | Learning Representations From Imperfect Time Series Data Via Tensor Rank Regularization | [📄](http://arxiv.org/pdf/1907.01011v1) | - |
 | 2019 | Multimodal Representation Learning Using Deep Multiset Canonical Correlation | [📄](http://arxiv.org/pdf/1904.01775v1) | - |
 
-### 2.2.2 Confidence Estimation
+### 2.2.2 Confidence Estimation [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Deep Learning-Driven Behavioral Modeling In Iost For Mental Health Monitoring And Intervention | [📄](https://ieeexplore.ieee.org/document/10943187) | - |
@@ -298,7 +324,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2021 | Multimodal Attention Fusion For Target Speaker Extraction | [📄](http://arxiv.org/pdf/2102.01326v1) | - |
 | 2019 | Anomaly Detection From System Tracing Data Using Multimodal Deep Learning | [📄](https://netman.aiops.org/~peidan/ANM2019/7.TraceAnomalyDetection/LectureCoverage/2019IEEECloud_Anomaly%20Detection%20from%20Tracing%20Data%20using%20Multimodal%20Deep%20Learning.pdf) | - |
 
-### 2.2.3 Robust Fusion
+### 2.2.3 Robust Fusion [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Multi-Task Corrupted Prediction For Learning Robust Audio-Visual Speech Representation | [📄](https://arxiv.org/pdf/2504.18539.pdf) | - |
@@ -319,7 +345,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2002 | New Kernels For Analyzing Multimodal Data In Multimedia Using Kernel Machines | [📄](https://ieeexplore.ieee.org/document/1035368) | - |
 
 ### 2.3 Training Strategies
-### 2.3.1 Data Augmentation
+### 2.3.1 Data Augmentation [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Fusion For Visual-Infrared Person Reid In Real-World Surveillance Using Corrupted Multimodal Data | [📄](http://arxiv.org/pdf/2305.00320) | - |
@@ -333,7 +359,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2019 | Videobert: A Joint Model For Video And Language Representation Learning | [📄](http://arxiv.org/pdf/1904.01766v2) | - |
 | 2018 | Deep Audio-Visual Speech Recognition | [📄](https://arxiv.org/pdf/1809.02108) | [💻](https://github.com/smeetrs/deep_avsr) |
 
-### 2.3.2 Adversarial Training
+### 2.3.2 Adversarial Training [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2023 | Cleanclip: Mitigating Data Poisoning Attacks In Multimodal Contrastive Learning | [📄](http://arxiv.org/pdf/2303.03323v3) | [💻](https://github.com/nishadsinghi/CleanCLIP) |
@@ -344,7 +370,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2021 | M3P: Learning Universal Representations Via Multitask Multilingual Multimodal Pre-Training | [📄](https://arxiv.org/pdf/2006.02635) | - |
 
 ### 2.4 Post Hoc Methods
-### 2.4.1 Error Detection
+### 2.4.1 Error Detection [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2025 | Corrupted But Not Broken: Rethinking The Impact Of Corrupted Data In Visual Instruction Tuning | [📄](https://arxiv.org/pdf/2502.12635.pdf) | - |
@@ -354,7 +380,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2021 | An Immune Inspired Algorithm For Fault Tolerant Enhanced Multimodal Machine Learning | [📄](https://ieeexplore.ieee.org/document/9669293) | - |
 | 2021 | Defending Multimodal Fusion Models Against Single-Source Adversaries | [📄](http://arxiv.org/pdf/2206.12714) | - |
 
-### 2.4.2 Recovery Mechanism
+### 2.4.2 Recovery Mechanism [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2024 | Zeronlg: Aligning And Autoencoding Domains For Zero-Shot Multimodal And Multilingual Natural Language Generation | [📄](https://arxiv.org/pdf/2303.06458) | [💻](https://github.com/yangbang18/ZeroNLG) |
@@ -363,7 +389,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2023 | Deep Multimodal Fusion With Corrupted Spatio-Temporal Data Using Fuzzy Regularization | [📄](https://ieeexplore.ieee.org/document/10312522) | - |
 
 
-## 📄 License
+## License
 
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
