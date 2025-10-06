@@ -6,7 +6,7 @@
 <p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Marta Moscati, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl </p> 
 
 <p align="center">
-  <img src="figs/overview_mml.jpg" alt="PDF Preview" width="600"/></br>
+  <img src="figs/overview_mml.png" alt="PDF Preview" width="600"/></br>
   <em>Fig 1:  Abstract Overview of different type of learning.(a). Unimodal Learning (b). Multimodal Learning (c). Multimodal Learning under Missing Modalities (d). Multimodal Learning under Corrupted Modalities</em>
 </p>
 
@@ -44,10 +44,15 @@ We strongly encourage the contributors/researchers to contribute to the research
 
 <p align="center">
   <img src="figs/missing_tax.png" alt="Taxonomy for missing modalities" width="600"/></br>
-  <em>Fig 1:  Overview of our missing modality taxonomy with SOTA methods Modalities</em>
+  <em>Fig 3:  Overview of our missing modality taxonomy with SOTA methods Modalities</em>
 </p>
 
-### 1.1 Reconstruction Approaches
+<p align="center">
+  <img src="figs/missing_card.png" alt="Taxonomy for missing modalities" width="600"/></br>
+  <em>Fig 3: Missing modality stats </em>
+</p>
+
+### 1.1 Reconstruction
 <!-- Generative Appraoches -->
 #### 1.1.1 Generative
 | Year | Title | Paper Link | Code Link |
@@ -94,7 +99,7 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2025 | Robust Multimodal Learning Via Cross-Modal Proxy Tokens | [📄](https://arxiv.org/pdf/2501.17823.pdf) | - |
 | 2025 | Wasserstein Modality Alignment Makes Your Multimodal Transformer More Robust | [📄](https://scholars.cityu.edu.hk/en/publications/wasserstein-modality-alignment-makes-your-multimodal-transformer-) | - |
 
-### 1.2 Architectural Approaches
+### 1.2 Architectural
 ### 1.2.1 Model Design
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
@@ -223,9 +228,16 @@ We strongly encourage the contributors/researchers to contribute to the research
 ## 📖 Multimodal Learning with Corrupted Modalities
 
 <p align="center">
-  <img src="figs/missing_tax.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
-  <em>Fig 1:  Overview of our corrupted modality taxonomy with SOTA methods Modalities</em>
+  <img src="figs/corrupt_tax.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
+  <em>Fig 4:  Overview of our corrupted modality taxonomy with SOTA methods Modalities</em>
 </p>
+
+
+<p align="center">
+  <img src="figs/corrupt_card.png" alt="Taxonomy for corrupted modalities" width="600"/></br>
+  <em>Fig 4:  Corrupted modalities Card</em>
+</p>
+
 
 ### 2.1 Data Processing Methods
 ### 2.1.1 Denoising Methods
