@@ -22,8 +22,8 @@ We strongly encourage the contributors/researchers to contribute to the research
 
 
 <!-- - [Multimodal Representation Learning under Imperfect Data Conditions: A Survey](#-p-aligncenter-multimodal-representation-learning-under-imperfect-data-conditions-a-survey--p) -->
-  - [Existing Survey Paper](#existing-survey-paper)
-  - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities)
+  - [Existing Survey Paper](#-existing-survey-paper)
+  - [Multimodal Learning with Missing Modalities](#-multimodal-learning-with-missing-modalities)
     - [1.1 Reconstruction](#11-reconstruction)
       - [1.1.1 Generative](#111-generative-back-to-top)
       - [1.1.2 Alignment](#112-alignment-back-to-top)
