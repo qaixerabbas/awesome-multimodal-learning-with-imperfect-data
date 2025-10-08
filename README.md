@@ -282,11 +282,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2017 | Audio Noise Reduction Using Low Pass Filters | [📄](https://doi.org/10.4236/oalib.1103709) | - |
 | 2016 | A Morphological Mean Filter For Impulse Noise Removal | [📄](https://ieeexplore.ieee.org/document/7293089) | - |
 | 2014 | A New Adaptive Weighted Mean Filter For Removing Salt-And-Pepper Noise | [📄](http://azadproject.ir/wp-content/uploads/2014/12/2014-A-New-Adaptive-Weighted-Mean-Filter-for-Removing-Salt-and-Pepper-Noise.pdf) | [💻](https://github.com/phogomes/noise_removal) |
-| 2011 | Removal Of High Density Salt And Pepper Noise Through Modified Decision Based Unsymmetric Trimmed Median Filter | [📄](https://ieeexplore.ieee.org/document/5723697) | - |
-| 2009 | Noise Adaptive Fuzzy Switching Median Filter For Salt-And-Pepper Noise Reduction | [📄](http://www.pgembeddedsystems.com/securelogin/upload/project/IEEE/2/PGM_40/PGM_40.pdf) | - |
-| 2008 | Impulse Noise Removal In Speech Using Wavelets | [📄](http://arxiv.org/pdf/1310.7447v1) | - |
-| 2001 | Adaptive Impulse Detection Using Center-Weighted Median Filters | [📄](https://www.researchgate.net/profile/Hong-Ren-Wu/publication/3342616_Wu_HR_Adaptive_Impulse_Detection_Using_Center-Weighted_Median_Filters_IEEE_Signal_Processing_Letters_8_1-3/links/53dae09f0cf2a19eee8b3fda/Wu-HR-Adaptive-Impulse-Detection-Using-Center-Weighted-Median-Filters-IEEE-Signal-Processing-Letters-8-1-3.pdf) | - |
-| 1999 | Progressive Switching Median Filter For The Removal Of Impulse Noise From Highly Corrupted Images | [📄](http://ira.lib.polyu.edu.hk/bitstream/10397/221/1/CS_ADSP_V46_1_99.pdf) | - |
 
 ### 2.2 Architectural Methods
 ### 2.2.1 Noise Aware Networks [Back to Top](#table-of-contents)
@@ -340,9 +335,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2020 | Hgmf: Heterogeneous Graph-Based Fusion For Multimodal Data With Incompleteness | [📄](http://www.shichuan.org/hin/topic/Information%20Fusion/KDD2020.HGMF_Heterogeneous%20Graph-based%20Fusion%20for%20Multimodal%20Data%20with%20Incompleteness.pdf) | - |
 | 2020 | Adaptive Multimodal Fusion For Facial Action Units Recognition | [📄](https://dl.acm.org/doi/pdf/10.1145/3394171.3413538) | - |
 | 2019 | A Deep Learning Gated Architecture For Ugv Navigation Robust To Sensor Failures | [📄](https://www.sciencedirect.com/science/article/am/pii/S0921889018305645) | - |
-| 2013 | Robust Multimodal Person Identification With Limited Training Data | [📄](https://pureadmin.qub.ac.uk/ws/files/4126175/manuscript.pdf) | - |
-| 2010 | Multimodal Biometrics: Analysis Of Handvein & Palmprint Combination Used For Person Verification | [📄](https://ieeexplore.ieee.org/document/5698382) | - |
-| 2002 | New Kernels For Analyzing Multimodal Data In Multimedia Using Kernel Machines | [📄](https://ieeexplore.ieee.org/document/1035368) | - |
 
 ### 2.3 Training Strategies
 ### 2.3.1 Data Augmentation [Back to Top](#table-of-contents)
