@@ -38,7 +38,7 @@ We strongly encourage the contributors/researchers to contribute to the research
   - [Multimodal Learning with Corrupted Modalities](#multimodal-learning-with-corrupted-modalities-back-to-top)
     - [2.1 Data Processing Methods](#21-data-processing-methods-back-to-top)
       - [2.1.1 Denoising Methods](#211-denoising-methods-back-to-top)
-      - [2.1.2 Signal Restoration Methods](#212-signal-restoration-methods-back-to-top)
+      <!-- - [2.1.2 Signal Restoration Methods](#212-signal-restoration-methods-back-to-top) -->
     - [2.2 Architectural Methods](#22-architectural-methods)
       - [2.2.1 Noise Aware Networks](#221-noise-aware-networks-back-to-top)
       - [2.2.2 Confidence Estimation](#222-confidence-estimation-back-to-top)
@@ -275,13 +275,13 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2018 | Highly Accurate Image Reconstruction For Multimodal Noise Suppression Using Semisupervised Learning On Big Data | [📄](https://ieeexplore.ieee.org/document/8327853) | [💻](https://github.com/bigmms/semisupervised-learning-denoising) |
 | 2014 | Multimodal Learning For Autonomous Underwater Vehicles From Visual And Bathymetric Data | [📄](https://www.researchgate.net/publication/286680050_Multimodal_learning_for_autonomous_underwater_vehicles_from_visual_and_bathymetric_data) | - |
 
-### 2.1.2 Signal Restoration Methods [Back to Top](#table-of-contents)
+<!-- ### 2.1.2 Signal Restoration Methods [Back to Top](#table-of-contents)
 | Year | Title | Paper Link | Code Link |
 |------|-------|------------|-----------|
 | 2019 | Impulse Noise Reduction In Audio Signal Through Multi-Stage Technique | [📄](https://doi.org/10.1016/j.jestch.2018.10.008) | - |
 | 2017 | Audio Noise Reduction Using Low Pass Filters | [📄](https://doi.org/10.4236/oalib.1103709) | - |
 | 2016 | A Morphological Mean Filter For Impulse Noise Removal | [📄](https://ieeexplore.ieee.org/document/7293089) | - |
-| 2014 | A New Adaptive Weighted Mean Filter For Removing Salt-And-Pepper Noise | [📄](http://azadproject.ir/wp-content/uploads/2014/12/2014-A-New-Adaptive-Weighted-Mean-Filter-for-Removing-Salt-and-Pepper-Noise.pdf) | [💻](https://github.com/phogomes/noise_removal) |
+| 2014 | A New Adaptive Weighted Mean Filter For Removing Salt-And-Pepper Noise | [📄](http://azadproject.ir/wp-content/uploads/2014/12/2014-A-New-Adaptive-Weighted-Mean-Filter-for-Removing-Salt-and-Pepper-Noise.pdf) | [💻](https://github.com/phogomes/noise_removal) | -->
 
 ### 2.2 Architectural Methods
 ### 2.2.1 Noise Aware Networks [Back to Top](#table-of-contents)
