@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-MIT-red.svg)
 
 # <p align=center> Multimodal Representation Learning under Imperfect Data Conditions: A Survey </p>
-<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Marta Moscati, Zaigham Zaheer, Yufang Hou, Salman Khan, Elisabeth Andre, Markus Schedl </p> 
+<p align=center> Authors: Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Muhammad Zaigham Zaheer, Marta Moscati, Yufang Hou, Muhammad Haris Khan, Salman Khan, Elisabeth Andre, Markus Schedl </p> 
 
 <p align="center">
   <img src="figs/overview_mml.png" alt="PDF Preview" width="600"/></br>
@@ -458,7 +458,7 @@ If you find the listing and survey useful for your work, please cite the paper:
 ```
 @misc{liaqat2025multimodal,
       title={Multimodal learning with imperfect data: A Survey}, 
-      author={Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Yufang Hou, Elisabeth Andre, Markus Schedl}
+      author={Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Marta Moscati, Yufang Hou, Muhammad Haris Khan, Salman Khan, Elisabeth Andre, Markus Schedl}
       year={2025},
       eprint={},
       archivePrefix={arXiv},
