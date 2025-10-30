@@ -447,7 +447,7 @@ If you find the listing and survey useful for your work, please cite the paper:
 
 ```
 @misc{liaqat2025multimodal,
-      title={Multimodal learning with imperfect data: A Survey}, 
+      title={Multimodal learning under imperfect data conditions: A Survey}, 
       author={Muhamamd Irzam Liaqat, Qaiser Abbas, Shah Nawaz, Zaigham Zaheer, Marta Moscati, Yufang Hou, Muhammad Haris Khan, Salman Khan, Elisabeth Andre, Markus Schedl}
       year={2025},
       eprint={},
