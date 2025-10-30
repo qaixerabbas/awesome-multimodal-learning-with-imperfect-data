@@ -18,10 +18,7 @@
 We strongly encourage the contributors/researchers to contribute to the research community in this specific research area. To add latest papers just make pull request to update the new paper's information!
 
 ## Table of Contents
-<!-- - [Existing Surveys](#existing-survey-paper) -->
 
-
-<!-- - [Multimodal Representation Learning under Imperfect Data Conditions: A Survey](#-p-aligncenter-multimodal-representation-learning-under-imperfect-data-conditions-a-survey--p) -->
   - [Existing Survey Paper](#existing-survey-paper-back-to-top)
   - [Multimodal Learning with Missing Modalities](#multimodal-learning-with-missing-modalities-back-to-top)
     - [1.1 Reconstruction](#11-reconstruction)
@@ -38,7 +35,6 @@ We strongly encourage the contributors/researchers to contribute to the research
   - [Multimodal Learning with Corrupted Modalities](#multimodal-learning-with-corrupted-modalities-back-to-top)
     - [2.1 Data Processing Methods](#21-data-processing-methods-back-to-top)
       - [2.1.1 Denoising Methods](#211-denoising-methods-back-to-top)
-      <!-- - [2.1.2 Signal Restoration Methods](#212-signal-restoration-methods-back-to-top) -->
     - [2.2 Architectural Methods](#22-architectural-methods)
       - [2.2.1 Noise Aware Networks](#221-noise-aware-networks-back-to-top)
       - [2.2.2 Confidence Estimation](#222-confidence-estimation-back-to-top)
@@ -64,7 +60,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2020 | A survey on deep learning for multimodal data fusion | [📄 Link](https://direct.mit.edu/neco/article/32/5/829/95591/A-Survey-on-Deep-Learning-for-Multimodal-Data) | - |
 | 2019 | Deep multimodal representation learning: A survey | [📄 Link](https://ieeexplore.ieee.org/ielx7/6287639/8600701/08715409.pdf) | - |
 | 2018 | Multimodal machine learning: A survey and taxonomy | [📄 Link](http://arxiv.org/pdf/1705.09406v2) | - |
-| 2010 | Multimodal fusion for multimedia analysis: a survey | [📄 Link](https://link.springer.com/article/10.1007/s00530-010-0182-0) | - |
 
 ## Multimodal Learning with Missing Modalities [Back to Top](#table-of-contents)
 
@@ -111,7 +106,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2020 | Estimation Of Missing Values In Heterogeneous Traffic Data: Application Of Multimodal Deep Learning Model | [📄](https://www.sciencedirect.com/science/article/abs/pii/S0950705120300691) | - |
 | 2018 | Synthesizing And Reconstructing Missing Sensory Modalities In Behavioral Context Recognition | [📄](https://www.mdpi.com/1424-8220/18/9/2967) | - |
 | 2018 | Deep Adversarial Learning For Multi-Modality Missing Data Completion | [📄](https://dl.acm.org/doi/pdf/10.1145/3219819.3219963) | - |
-| 2017 | Missing Modalities Imputation Via Cascaded Residual Autoencoder | [📄](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.pdf) | - |
 
 ### 1.1.2 Alignment [Back to Top](#table-of-contents)
 <p align="center">
@@ -174,7 +168,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2023 | Rethinking Uncertainly Missing And Ambiguous Visual Modality In Multi-Modal Entity Alignment | [📄](https://arxiv.org/pdf/2307.16210) | [💻](https://github.com/zjukg/UMAEA) |
 | 2022 | Mitigating Inconsistencies In Multimodal Sentiment Analysis Under Uncertain Missing Modalities | [📄](https://aclanthology.org/2022.emnlp-main.189.pdf) | [💻](https://github.com/JaydenZeng/EMMR) |
 | 2021 | Robust Multi-Modality Person Re-Identification | [📄](https://ojs.aaai.org/index.php/AAAI/article/download/16467/16274) | - |
-| 2015 | Sparse Low-Rank Fusion Based Deep Features For Missing Modality Face Recognition | [📄](https://ieeexplore.ieee.org/document/7163103) | - |
 
 
 ### 1.2.3 Co-Learning [Back to Top](#table-of-contents)
@@ -197,8 +190,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2021 | Progressive Modality Cooperation For Multi-Modality Domain Adaptation | [📄](https://arxiv.org/pdf/2506.19316.pdf) | - |
 | 2021 | Acn: Adversarial Co-Training Network For Brain Tumor Segmentation With Missing Modalities | [📄](https://arxiv.org/pdf/2106.14591.pdf) | - |
 | 2018 | Lrmm: Learning To Recommend With Missing Modalities | [📄](http://arxiv.org/pdf/1808.06791v2) | - |
-| 2015 | Missing Modality Transfer Learning Via Latent Low-Rank Constraint | [📄](https://ieeexplore.ieee.org/document/7172522) | - |
-| 2014 | Latent Low-Rank Transfer Subspace Learning For Missing Modality Recognition | [📄](https://ojs.aaai.org/index.php/AAAI/article/download/8905/8764) | - |
 
 ### 1.2.4 Distillation [Back to Top](#table-of-contents)
 <p align="center">
@@ -324,7 +315,6 @@ We strongly encourage the contributors/researchers to contribute to the research
 | 2023 | Rhvit: A Robust Hierarchical Transformer For 3D Multimodal Brain Tumor Segmentation Using Biased Masked Image Modeling Pre-Training | [📄](https://ieeexplore.ieee.org/document/10385746) | - |
 | 2022 | Multimodal Cloud Resources Utilization Forecasting Using A Bidirectional Gated Recurrent Unit Predictor Based On A Power Efficient Stacked Denoising Autoencoders | [📄](https://doi.org/10.1016/j.aej.2022.05.017) | - |
 | 2018 | Highly Accurate Image Reconstruction For Multimodal Noise Suppression Using Semisupervised Learning On Big Data | [📄](https://ieeexplore.ieee.org/document/8327853) | [💻](https://github.com/bigmms/semisupervised-learning-denoising) |
-| 2014 | Multimodal Learning For Autonomous Underwater Vehicles From Visual And Bathymetric Data | [📄](https://www.researchgate.net/publication/286680050_Multimodal_learning_for_autonomous_underwater_vehicles_from_visual_and_bathymetric_data) | - |
 
 ### 2.2 Architectural Methods
 
